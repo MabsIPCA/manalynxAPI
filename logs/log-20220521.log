@@ -1,0 +1,7 @@
+[2022-05-21 03:00:20.451] User profile is available. Using 'C:\Users\miabs\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [2022-05-21 03:00:21.749] Now listening on: https://localhost:7064 
+ [2022-05-21 03:00:21.750] Now listening on: http://localhost:5064 
+ [2022-05-21 03:00:21.754] Application started. Press Ctrl+C to shut down. 
+ [2022-05-21 03:00:21.754] Hosting environment: Development 
+ [2022-05-21 03:00:21.754] Content root path: C:\Projects\manalynx\manalynx\src\ManaLynxAPI\ManaLynxAPI\ 
+ 

@@ -1,0 +1,655 @@
+[2022-05-12 19:14:40.540] User profile is available. Using 'C:\Users\miabs\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [2022-05-12 19:14:50.403] Now listening on: https://localhost:7064 
+ [2022-05-12 19:14:50.403] Now listening on: http://localhost:5064 
+ [2022-05-12 19:14:50.643] Application started. Press Ctrl+C to shut down. 
+ [2022-05-12 19:14:50.643] Hosting environment: Development 
+ [2022-05-12 19:14:50.643] Content root path: C:\Projects\manalynx\manalynx\src\ManaLynxAPI\ManaLynxAPI\ 
+ [2022-05-12 19:15:28.325] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - - 
+ [2022-05-12 19:15:29.009] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - - 
+ [2022-05-12 19:15:29.019] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 8.1016ms 
+ [2022-05-12 19:15:29.020] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - - - 200 - text/html;charset=utf-8 701.5363ms 
+ [2022-05-12 19:15:29.489] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - - 
+ [2022-05-12 19:15:29.702] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 213.4070ms 
+ [2022-05-12 19:15:46.320] Request starting HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 48 
+ [2022-05-12 19:15:46.356] CORS policy execution successful. 
+ [2022-05-12 19:15:46.984] Executing endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-12 19:15:47.013] Route matched with {action = "Login", controller = "ManaUser"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ManaLynxAPI.Models.AuthRequest) on controller ManaLynxAPI.Controllers.ManaUserController (ManaLynxAPI). 
+ [2022-05-12 19:15:47.998] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Models.AuthResponse'. 
+ [2022-05-12 19:15:48.016] Executed action ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI) in 992.8935ms 
+ [2022-05-12 19:15:48.018] Executed endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-12 19:15:48.022] Request finished HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 48 - 200 - application/json;+charset=utf-8 1702.0055ms 
+ [2022-05-12 19:18:52.186] Request starting HTTP/2 OPTIONS https://localhost:7064/ManaUser/Login - - 
+ [2022-05-12 19:18:52.188] CORS policy execution successful. 
+ [2022-05-12 19:18:52.188] Request finished HTTP/2 OPTIONS https://localhost:7064/ManaUser/Login - - - 204 - - 5.7140ms 
+ [2022-05-12 19:22:16.069] Request starting HTTP/2 OPTIONS https://localhost:7064/ManaUser/Login - - 
+ [2022-05-12 19:22:16.069] CORS policy execution successful. 
+ [2022-05-12 19:22:16.070] Request finished HTTP/2 OPTIONS https://localhost:7064/ManaUser/Login - - - 204 - - 0.6187ms 
+ [2022-05-12 19:22:44.793] Request starting HTTP/2 OPTIONS https://localhost:7064/ManaUser/Login - - 
+ [2022-05-12 19:22:44.809] CORS policy execution successful. 
+ [2022-05-12 19:22:44.811] Request finished HTTP/2 OPTIONS https://localhost:7064/ManaUser/Login - - - 204 - - 17.2614ms 
+ [2022-05-12 19:23:29.144] Request starting HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 39 
+ [2022-05-12 19:23:29.152] Executing endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-12 19:23:29.153] Route matched with {action = "Login", controller = "ManaUser"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ManaLynxAPI.Models.AuthRequest) on controller ManaLynxAPI.Controllers.ManaUserController (ManaLynxAPI). 
+ [2022-05-12 19:23:29.248] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Models.AuthResponse'. 
+ [2022-05-12 19:23:29.248] Executed action ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI) in 95.3376ms 
+ [2022-05-12 19:23:29.248] Executed endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-12 19:23:29.249] Request finished HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 39 - 200 - application/json;+charset=utf-8 104.8842ms 
+ [2022-05-12 19:23:32.435] Request starting HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 39 
+ [2022-05-12 19:23:32.437] Executing endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-12 19:23:32.438] Route matched with {action = "Login", controller = "ManaUser"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ManaLynxAPI.Models.AuthRequest) on controller ManaLynxAPI.Controllers.ManaUserController (ManaLynxAPI). 
+ [2022-05-12 19:23:32.498] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - 
+ [2022-05-12 19:23:32.502] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:23:32.504] Route matched with {action = "DashboardGestor", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardGestor() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-12 19:23:32.534] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Models.AuthResponse'. 
+ [2022-05-12 19:23:32.534] Executed action ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI) in 96.3563ms 
+ [2022-05-12 19:23:32.534] Executed endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-12 19:23:32.534] Request finished HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 39 - 200 - application/json;+charset=utf-8 99.2943ms 
+ [2022-05-12 19:23:33.111] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardGestorObj'. 
+ [2022-05-12 19:23:33.119] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI) in 615.44ms 
+ [2022-05-12 19:23:33.120] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:23:33.120] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - - 200 - application/json;+charset=utf-8 622.2693ms 
+ [2022-05-12 19:27:54.769] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - 
+ [2022-05-12 19:27:54.797] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:27:54.798] Route matched with {action = "DashboardGestor", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardGestor() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-12 19:27:55.192] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardGestorObj'. 
+ [2022-05-12 19:27:55.192] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI) in 394.6643ms 
+ [2022-05-12 19:27:55.193] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:27:55.193] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - - 200 - application/json;+charset=utf-8 424.4927ms 
+ [2022-05-12 19:28:01.825] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - 
+ [2022-05-12 19:28:01.831] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:28:01.831] Route matched with {action = "DashboardGestor", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardGestor() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-12 19:28:02.193] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardGestorObj'. 
+ [2022-05-12 19:28:02.194] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI) in 363.5817ms 
+ [2022-05-12 19:28:02.195] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:28:02.197] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - - 200 - application/json;+charset=utf-8 369.8057ms 
+ [2022-05-12 19:30:39.327] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - 
+ [2022-05-12 19:30:39.327] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:30:39.328] Route matched with {action = "DashboardGestor", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardGestor() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-12 19:30:39.691] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardGestorObj'. 
+ [2022-05-12 19:30:39.691] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI) in 363.2565ms 
+ [2022-05-12 19:30:39.691] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:30:39.691] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - - 200 - application/json;+charset=utf-8 364.7362ms 
+ [2022-05-12 19:31:49.308] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - 
+ [2022-05-12 19:31:49.309] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:31:49.309] Route matched with {action = "DashboardGestor", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardGestor() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-12 19:31:49.673] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardGestorObj'. 
+ [2022-05-12 19:31:49.673] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI) in 363.7686ms 
+ [2022-05-12 19:31:49.673] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:31:49.673] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - - 200 - application/json;+charset=utf-8 365.8199ms 
+ [2022-05-12 19:33:00.453] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - 
+ [2022-05-12 19:33:00.454] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:33:00.454] Route matched with {action = "DashboardGestor", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardGestor() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-12 19:33:00.817] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardGestorObj'. 
+ [2022-05-12 19:33:00.817] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI) in 362.5516ms 
+ [2022-05-12 19:33:00.817] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:33:00.817] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - - 200 - application/json;+charset=utf-8 363.6600ms 
+ [2022-05-12 19:33:04.305] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - 
+ [2022-05-12 19:33:04.306] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:33:04.306] Route matched with {action = "DashboardGestor", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardGestor() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-12 19:33:04.685] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardGestorObj'. 
+ [2022-05-12 19:33:04.685] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI) in 379.1545ms 
+ [2022-05-12 19:33:04.685] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:33:04.685] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - - 200 - application/json;+charset=utf-8 380.6580ms 
+ [2022-05-12 19:33:17.946] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - 
+ [2022-05-12 19:33:17.947] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:33:17.947] Route matched with {action = "DashboardGestor", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardGestor() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-12 19:33:18.310] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardGestorObj'. 
+ [2022-05-12 19:33:18.310] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI) in 362.6783ms 
+ [2022-05-12 19:33:18.310] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:33:18.310] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - - 200 - application/json;+charset=utf-8 364.1323ms 
+ [2022-05-12 19:33:23.295] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - 
+ [2022-05-12 19:33:23.295] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:33:23.295] Route matched with {action = "DashboardGestor", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardGestor() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-12 19:33:23.658] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardGestorObj'. 
+ [2022-05-12 19:33:23.659] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI) in 363.5479ms 
+ [2022-05-12 19:33:23.659] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:33:23.659] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - - 200 - application/json;+charset=utf-8 364.3059ms 
+ [2022-05-12 19:35:13.454] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - 
+ [2022-05-12 19:35:13.455] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:35:13.455] Route matched with {action = "DashboardGestor", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardGestor() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-12 19:35:13.819] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardGestorObj'. 
+ [2022-05-12 19:35:13.820] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI) in 364.4966ms 
+ [2022-05-12 19:35:13.820] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:35:13.820] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - - 200 - application/json;+charset=utf-8 366.0350ms 
+ [2022-05-12 19:35:40.242] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - 
+ [2022-05-12 19:35:40.243] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:35:40.243] Route matched with {action = "DashboardGestor", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardGestor() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-12 19:35:40.602] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardGestorObj'. 
+ [2022-05-12 19:35:40.603] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI) in 359.8338ms 
+ [2022-05-12 19:35:40.604] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:35:40.604] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - - 200 - application/json;+charset=utf-8 361.4688ms 
+ [2022-05-12 19:36:14.855] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - 
+ [2022-05-12 19:36:14.855] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:36:14.855] Route matched with {action = "DashboardGestor", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardGestor() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-12 19:36:15.211] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardGestorObj'. 
+ [2022-05-12 19:36:15.211] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI) in 356.0743ms 
+ [2022-05-12 19:36:15.211] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:36:15.211] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - - 200 - application/json;+charset=utf-8 356.9471ms 
+ [2022-05-12 19:36:53.574] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - 
+ [2022-05-12 19:36:53.574] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:36:53.574] Route matched with {action = "DashboardGestor", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardGestor() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-12 19:36:53.948] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardGestorObj'. 
+ [2022-05-12 19:36:53.948] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI) in 373.9196ms 
+ [2022-05-12 19:36:53.948] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:36:53.949] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - - 200 - application/json;+charset=utf-8 374.9211ms 
+ [2022-05-12 19:46:05.480] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - 
+ [2022-05-12 19:46:05.481] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:46:05.482] Route matched with {action = "DashboardGestor", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardGestor() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-12 19:46:05.889] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardGestorObj'. 
+ [2022-05-12 19:46:05.889] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI) in 407.7268ms 
+ [2022-05-12 19:46:05.890] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:46:05.890] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - - 200 - application/json;+charset=utf-8 409.6122ms 
+ [2022-05-12 19:47:44.021] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - 
+ [2022-05-12 19:47:44.022] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:47:44.022] Route matched with {action = "DashboardGestor", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardGestor() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-12 19:47:44.433] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardGestorObj'. 
+ [2022-05-12 19:47:44.434] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI) in 411.8386ms 
+ [2022-05-12 19:47:44.434] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 19:47:44.434] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - - 200 - application/json;+charset=utf-8 412.8150ms 
+ [2022-05-12 20:48:38.705] Request starting HTTP/2 POST https://localhost:7064/ManaUser/Register application/json 106 
+ [2022-05-12 20:48:38.706] CORS policy execution successful. 
+ [2022-05-12 20:48:38.707] Executing endpoint 'ManaLynxAPI.Controllers.ManaUserController.Register (ManaLynxAPI)' 
+ [2022-05-12 20:48:38.718] Route matched with {action = "Register", controller = "ManaUser"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(ManaLynxAPI.Models.RegisterRequest) on controller ManaLynxAPI.Controllers.ManaUserController (ManaLynxAPI). 
+ [2022-05-12 20:54:15.038] User profile is available. Using 'C:\Users\miabs\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [2022-05-12 20:54:15.566] Now listening on: https://localhost:7064 
+ [2022-05-12 20:54:15.566] Now listening on: http://localhost:5064 
+ [2022-05-12 20:54:15.569] Application started. Press Ctrl+C to shut down. 
+ [2022-05-12 20:54:15.569] Hosting environment: Development 
+ [2022-05-12 20:54:15.569] Content root path: C:\Projects\manalynx\manalynx\src\ManaLynxAPI\ManaLynxAPI\ 
+ [2022-05-12 20:58:35.428] Request starting HTTP/2 POST https://localhost:7064/ManaUser/Register application/json 53 
+ [2022-05-12 20:58:35.486] CORS policy execution successful. 
+ [2022-05-12 20:58:35.612] Executing endpoint 'ManaLynxAPI.Controllers.ManaUserController.Register (ManaLynxAPI)' 
+ [2022-05-12 20:58:35.642] Route matched with {action = "Register", controller = "ManaUser"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(ManaLynxAPI.Models.RegisterRequest) on controller ManaLynxAPI.Controllers.ManaUserController (ManaLynxAPI). 
+ [2022-05-12 20:58:35.705] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'. 
+ [2022-05-12 20:58:35.725] Executed action ManaLynxAPI.Controllers.ManaUserController.Register (ManaLynxAPI) in 76.3309ms 
+ [2022-05-12 20:58:35.727] Executed endpoint 'ManaLynxAPI.Controllers.ManaUserController.Register (ManaLynxAPI)' 
+ [2022-05-12 20:58:35.732] Request finished HTTP/2 POST https://localhost:7064/ManaUser/Register application/json 53 - 400 - application/problem+json;+charset=utf-8 306.8966ms 
+ [2022-05-12 20:59:26.591] Request starting HTTP/2 POST https://localhost:7064/ManaUser/Register application/json 79 
+ [2022-05-12 20:59:26.597] CORS policy execution successful. 
+ [2022-05-12 20:59:26.597] Executing endpoint 'ManaLynxAPI.Controllers.ManaUserController.Register (ManaLynxAPI)' 
+ [2022-05-12 20:59:26.598] Route matched with {action = "Register", controller = "ManaUser"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register(ManaLynxAPI.Models.RegisterRequest) on controller ManaLynxAPI.Controllers.ManaUserController (ManaLynxAPI). 
+ [2022-05-12 21:23:34.800] User profile is available. Using 'C:\Users\miabs\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ [2022-05-12 21:23:35.415] Now listening on: https://localhost:7064 
+ [2022-05-12 21:23:35.415] Now listening on: http://localhost:5064 
+ [2022-05-12 21:23:35.418] Application started. Press Ctrl+C to shut down. 
+ [2022-05-12 21:23:35.418] Hosting environment: Development 
+ [2022-05-12 21:23:35.418] Content root path: C:\Projects\manalynx\manalynx\src\ManaLynxAPI\ManaLynxAPI\ 
+ [2022-05-12 21:24:11.356] Request starting HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 39 
+ [2022-05-12 21:24:11.537] Executing endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-12 21:24:11.558] Route matched with {action = "Login", controller = "ManaUser"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ManaLynxAPI.Models.AuthRequest) on controller ManaLynxAPI.Controllers.ManaUserController (ManaLynxAPI). 
+ [2022-05-12 21:24:12.026] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Models.AuthResponse'. 
+ [2022-05-12 21:24:12.042] Executed action ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI) in 477.5182ms 
+ [2022-05-12 21:24:12.043] Executed endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-12 21:24:12.050] Request finished HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 39 - 200 - application/json;+charset=utf-8 698.0513ms 
+ [2022-05-12 21:24:26.226] Request starting HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 39 
+ [2022-05-12 21:24:26.244] Executing endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-12 21:24:26.244] Route matched with {action = "Login", controller = "ManaUser"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ManaLynxAPI.Models.AuthRequest) on controller ManaLynxAPI.Controllers.ManaUserController (ManaLynxAPI). 
+ [2022-05-12 21:24:26.369] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - 
+ [2022-05-12 21:24:26.406] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 21:24:26.410] Route matched with {action = "DashboardGestor", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardGestor() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-12 21:24:26.445] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Models.AuthResponse'. 
+ [2022-05-12 21:24:26.446] Executed action ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI) in 200.9329ms 
+ [2022-05-12 21:24:26.446] Executed endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-12 21:24:26.446] Request finished HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 39 - 200 - application/json;+charset=utf-8 219.4757ms 
+ [2022-05-12 21:24:27.045] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardGestorObj'. 
+ [2022-05-12 21:24:27.058] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI) in 647.8221ms 
+ [2022-05-12 21:24:27.059] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 21:24:27.059] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - - 200 - application/json;+charset=utf-8 689.4710ms 
+ [2022-05-12 21:37:24.099] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 21:37:24.107] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Gestor|Agente|Cliente) 
+ [2022-05-12 21:37:24.115] AuthenticationScheme: Bearer was challenged. 
+ [2022-05-12 21:37:24.116] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 401 0 - 16.6286ms 
+ [2022-05-12 21:37:46.623] Request starting HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 48 
+ [2022-05-12 21:37:46.629] CORS policy execution successful. 
+ [2022-05-12 21:37:46.630] Executing endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-12 21:37:46.630] Route matched with {action = "Login", controller = "ManaUser"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ManaLynxAPI.Models.AuthRequest) on controller ManaLynxAPI.Controllers.ManaUserController (ManaLynxAPI). 
+ [2022-05-12 21:37:46.725] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Models.AuthResponse'. 
+ [2022-05-12 21:37:46.727] Executed action ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI) in 96.6775ms 
+ [2022-05-12 21:37:46.727] Executed endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-12 21:37:46.727] Request finished HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 48 - 200 - application/json;+charset=utf-8 104.3261ms 
+ [2022-05-12 21:38:17.398] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 21:38:17.534] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 21:38:17.536] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 21:38:17.809] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 21:38:17.809] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 21:38:17.831] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 293.6691ms 
+ [2022-05-12 21:38:17.831] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 21:38:17.831] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 432.5006ms 
+ [2022-05-12 21:55:41.576] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 21:55:41.577] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Gestor|Agente|Cliente) 
+ [2022-05-12 21:55:41.577] AuthenticationScheme: Bearer was challenged. 
+ [2022-05-12 21:55:41.578] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 401 0 - 1.6113ms 
+ [2022-05-12 21:56:05.513] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 21:56:05.514] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Gestor|Agente|Cliente) 
+ [2022-05-12 21:56:05.514] AuthenticationScheme: Bearer was challenged. 
+ [2022-05-12 21:56:05.514] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 401 0 - 1.1023ms 
+ [2022-05-12 22:02:31.819] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 22:02:31.826] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 22:02:31.827] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 22:02:31.873] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 22:02:31.873] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 22:02:31.873] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 46.5436ms 
+ [2022-05-12 22:02:31.873] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 22:02:31.874] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 54.8363ms 
+ [2022-05-12 23:03:07.099] Request starting HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 39 
+ [2022-05-12 23:03:07.102] Failed to validate the token. 
+ [2022-05-12 23:03:07.102] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'. 
+ [2022-05-12 23:03:07.102] Executing endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-12 23:03:07.103] Route matched with {action = "Login", controller = "ManaUser"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ManaLynxAPI.Models.AuthRequest) on controller ManaLynxAPI.Controllers.ManaUserController (ManaLynxAPI). 
+ [2022-05-12 23:03:07.197] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Models.AuthResponse'. 
+ [2022-05-12 23:03:07.198] Executed action ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI) in 95.0225ms 
+ [2022-05-12 23:03:07.198] Executed endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-12 23:03:07.198] Request finished HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 39 - 200 - application/json;+charset=utf-8 98.9112ms 
+ [2022-05-12 23:03:11.408] Request starting HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 39 
+ [2022-05-12 23:03:11.409] Executing endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-12 23:03:11.409] Route matched with {action = "Login", controller = "ManaUser"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ManaLynxAPI.Models.AuthRequest) on controller ManaLynxAPI.Controllers.ManaUserController (ManaLynxAPI). 
+ [2022-05-12 23:03:11.503] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Models.AuthResponse'. 
+ [2022-05-12 23:03:11.503] Executed action ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI) in 93.8561ms 
+ [2022-05-12 23:03:11.503] Executed endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-12 23:03:11.503] Request finished HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 39 - 200 - application/json;+charset=utf-8 95.5099ms 
+ [2022-05-12 23:03:11.525] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - 
+ [2022-05-12 23:03:11.539] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 23:03:11.539] Route matched with {action = "DashboardGestor", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardGestor() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-12 23:03:11.900] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardGestorObj'. 
+ [2022-05-12 23:03:11.900] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI) in 360.7677ms 
+ [2022-05-12 23:03:11.900] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor (ManaLynxAPI)' 
+ [2022-05-12 23:03:11.900] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardGestor - - - 200 - application/json;+charset=utf-8 375.4097ms 
+ [2022-05-12 23:03:13.560] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:03:13.560] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:03:13.560] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:03:13.606] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:03:13.607] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:03:13.607] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 46.438ms 
+ [2022-05-12 23:03:13.607] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:03:13.607] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 47.3687ms 
+ [2022-05-12 23:04:00.060] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:04:00.061] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:04:00.061] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:04:00.575] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:04:00.575] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:04:00.575] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 514.1131ms 
+ [2022-05-12 23:04:00.575] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:04:00.575] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 515.5097ms 
+ [2022-05-12 23:05:41.900] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:05:41.903] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:05:41.904] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:05:41.949] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:05:41.949] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:05:41.949] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 45.6192ms 
+ [2022-05-12 23:05:41.949] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:05:41.949] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 49.2961ms 
+ [2022-05-12 23:06:05.311] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:06:05.312] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:06:05.312] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:06:05.360] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:06:05.360] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:06:05.361] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 47.9826ms 
+ [2022-05-12 23:06:05.361] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:06:05.361] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 50.1335ms 
+ [2022-05-12 23:06:15.028] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:06:15.030] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:06:15.030] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:06:15.079] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:06:15.079] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:06:15.080] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 49.5993ms 
+ [2022-05-12 23:06:15.080] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:06:15.080] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 51.8811ms 
+ [2022-05-12 23:06:38.799] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:06:38.799] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:06:38.799] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:06:38.860] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:06:38.860] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:06:38.860] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 61.2795ms 
+ [2022-05-12 23:06:38.861] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:06:38.861] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 62.0990ms 
+ [2022-05-12 23:08:41.718] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:08:41.719] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:08:41.719] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:08:41.765] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:08:41.765] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:08:41.765] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 45.8068ms 
+ [2022-05-12 23:08:41.765] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:08:41.765] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 47.1418ms 
+ [2022-05-12 23:10:47.767] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:10:47.768] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:10:47.768] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:10:47.814] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:10:47.814] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:10:47.815] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 46.92ms 
+ [2022-05-12 23:10:47.815] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:10:47.815] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 48.5399ms 
+ [2022-05-12 23:13:26.471] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:13:26.472] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:13:26.472] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:13:26.517] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:13:26.517] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:13:26.517] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 44.8956ms 
+ [2022-05-12 23:13:26.517] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:13:26.517] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 45.9299ms 
+ [2022-05-12 23:13:58.812] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:13:58.813] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:13:58.813] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:13:58.858] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:13:58.859] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:13:58.859] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 45.9687ms 
+ [2022-05-12 23:13:58.859] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:13:58.859] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 47.1393ms 
+ [2022-05-12 23:14:15.743] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:14:15.743] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:14:15.743] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:14:15.788] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:14:15.789] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:14:15.789] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 45.6775ms 
+ [2022-05-12 23:14:15.789] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:14:15.790] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 47.0584ms 
+ [2022-05-12 23:15:06.964] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:15:06.965] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:15:06.965] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:15:07.010] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:15:07.010] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:15:07.011] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 45.7482ms 
+ [2022-05-12 23:15:07.011] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:15:07.011] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 47.1955ms 
+ [2022-05-12 23:16:34.527] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:16:34.528] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:16:34.528] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:16:34.574] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:16:34.574] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:16:34.574] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 46.1271ms 
+ [2022-05-12 23:16:34.574] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:16:34.574] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 47.5359ms 
+ [2022-05-12 23:16:51.074] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:16:51.075] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:16:51.075] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:16:51.121] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:16:51.122] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:16:51.122] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 46.6074ms 
+ [2022-05-12 23:16:51.122] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:16:51.122] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 49.4737ms 
+ [2022-05-12 23:17:04.263] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:17:04.264] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:17:04.264] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:17:04.310] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:17:04.311] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:17:04.311] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 46.9716ms 
+ [2022-05-12 23:17:04.311] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:17:04.311] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 48.1736ms 
+ [2022-05-12 23:17:39.439] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:17:39.439] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:17:39.439] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:17:39.486] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:17:39.486] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:17:39.486] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 46.6248ms 
+ [2022-05-12 23:17:39.486] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:17:39.486] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 47.4186ms 
+ [2022-05-12 23:18:19.053] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:18:19.054] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:18:19.054] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:18:19.101] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:18:19.101] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:18:19.102] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 47.4553ms 
+ [2022-05-12 23:18:19.102] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:18:19.102] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 48.5759ms 
+ [2022-05-12 23:18:24.361] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:18:24.362] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:18:24.362] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:18:24.408] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:18:24.408] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:18:24.408] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 46.2218ms 
+ [2022-05-12 23:18:24.408] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:18:24.408] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 47.3318ms 
+ [2022-05-12 23:24:06.348] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:24:06.349] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:24:06.350] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:24:06.395] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:24:06.395] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:24:06.395] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 45.61ms 
+ [2022-05-12 23:24:06.395] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:24:06.396] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 47.3805ms 
+ [2022-05-12 23:31:53.883] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:31:53.884] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:31:53.884] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:31:53.932] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:31:53.932] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:31:53.932] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 47.4407ms 
+ [2022-05-12 23:31:53.932] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:31:53.932] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 49.5810ms 
+ [2022-05-12 23:32:28.259] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:32:28.261] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:32:28.261] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:32:28.306] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:32:28.307] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:32:28.307] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 45.4949ms 
+ [2022-05-12 23:32:28.307] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:32:28.307] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 48.1035ms 
+ [2022-05-12 23:33:06.171] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:33:06.171] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:33:06.172] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:33:06.216] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:33:06.216] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:33:06.217] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 44.8678ms 
+ [2022-05-12 23:33:06.217] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:33:06.217] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 46.2412ms 
+ [2022-05-12 23:33:20.560] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:33:20.560] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:33:20.561] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:33:20.607] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:33:20.607] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:33:20.607] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 46.3784ms 
+ [2022-05-12 23:33:20.607] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:33:20.607] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 47.7201ms 
+ [2022-05-12 23:35:05.012] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:35:05.013] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:35:05.013] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:35:05.060] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:35:05.061] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:35:05.061] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 47.7573ms 
+ [2022-05-12 23:35:05.061] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:35:05.062] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 50.3519ms 
+ [2022-05-12 23:35:34.934] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:35:34.936] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:35:34.937] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:35:34.981] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:35:34.981] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:35:34.982] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 44.8873ms 
+ [2022-05-12 23:35:34.982] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:35:34.982] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 47.3883ms 
+ [2022-05-12 23:36:01.265] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:36:01.266] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:36:01.266] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:36:01.315] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:36:01.315] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:36:01.315] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 49.0706ms 
+ [2022-05-12 23:36:01.315] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:36:01.315] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 50.4142ms 
+ [2022-05-12 23:36:21.947] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:36:21.948] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:36:21.948] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:36:22.000] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:36:22.000] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:36:22.000] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 51.345ms 
+ [2022-05-12 23:36:22.000] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:36:22.000] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 52.5572ms 
+ [2022-05-12 23:36:52.298] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:36:52.299] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:36:52.299] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:36:52.346] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:36:52.346] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:36:52.346] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 47.2015ms 
+ [2022-05-12 23:36:52.346] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:36:52.347] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 48.5858ms 
+ [2022-05-12 23:40:49.306] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:40:49.307] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:40:49.307] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:40:49.353] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:40:49.353] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:40:49.353] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 46.4284ms 
+ [2022-05-12 23:40:49.353] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:40:49.354] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 47.4014ms 
+ [2022-05-12 23:41:10.433] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:41:10.434] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:41:10.434] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:41:10.478] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:41:10.478] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:41:10.479] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 44.9524ms 
+ [2022-05-12 23:41:10.479] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:41:10.479] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 45.7572ms 
+ [2022-05-12 23:41:27.895] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:41:27.896] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:41:27.896] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:41:27.941] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:41:27.941] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:41:27.942] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 45.5922ms 
+ [2022-05-12 23:41:27.942] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:41:27.942] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 46.3214ms 
+ [2022-05-12 23:41:38.344] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:41:38.345] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:41:38.345] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:41:38.390] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:41:38.390] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:41:38.390] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 45.266ms 
+ [2022-05-12 23:41:38.390] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:41:38.390] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 46.8410ms 
+ [2022-05-12 23:42:05.557] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:42:05.557] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:42:05.558] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:42:05.605] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:42:05.606] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:42:05.606] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 48.1374ms 
+ [2022-05-12 23:42:05.606] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:42:05.606] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 48.8857ms 
+ [2022-05-12 23:45:59.767] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:45:59.768] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:45:59.768] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:45:59.813] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:45:59.813] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:45:59.813] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 45.3634ms 
+ [2022-05-12 23:45:59.813] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:45:59.813] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 47.3483ms 
+ [2022-05-12 23:47:10.859] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:47:10.859] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:47:10.859] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:47:10.907] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:47:10.907] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:47:10.907] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 47.359ms 
+ [2022-05-12 23:47:10.907] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:47:10.907] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 48.5670ms 
+ [2022-05-12 23:47:36.782] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:47:36.782] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:47:36.782] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:47:36.828] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:47:36.828] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:47:36.828] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 46.1482ms 
+ [2022-05-12 23:47:36.828] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:47:36.829] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 47.2921ms 
+ [2022-05-12 23:49:08.810] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:49:08.812] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:49:08.812] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:49:08.857] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:49:08.857] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:49:08.857] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 45.1023ms 
+ [2022-05-12 23:49:08.857] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:49:08.857] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 46.9806ms 
+ [2022-05-12 23:49:57.017] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:49:57.021] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:49:57.022] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:49:57.070] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:49:57.070] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:49:57.070] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 46.5435ms 
+ [2022-05-12 23:49:57.070] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:49:57.070] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 55.3870ms 
+ [2022-05-12 23:51:01.206] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:51:01.207] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:51:01.207] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:51:01.254] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:51:01.254] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:51:01.255] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 47.8267ms 
+ [2022-05-12 23:51:01.255] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:51:01.255] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 48.6892ms 
+ [2022-05-12 23:51:20.294] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:51:20.331] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:51:20.331] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:51:20.377] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:51:20.377] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:51:20.377] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 46.0723ms 
+ [2022-05-12 23:51:20.378] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:51:20.378] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 83.8347ms 
+ [2022-05-12 23:52:01.882] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:52:01.882] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:52:01.882] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:52:01.929] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:52:01.929] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:52:01.929] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 46.3362ms 
+ [2022-05-12 23:52:01.929] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:52:01.929] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 47.3824ms 
+ [2022-05-12 23:52:54.283] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:52:54.283] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:52:54.284] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:52:54.331] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:52:54.331] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:52:54.332] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 47.8775ms 
+ [2022-05-12 23:52:54.332] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:52:54.332] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 48.7749ms 
+ [2022-05-12 23:54:51.031] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:54:51.032] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:54:51.032] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:54:51.079] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:54:51.079] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:54:51.079] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 46.8646ms 
+ [2022-05-12 23:54:51.079] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:54:51.079] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 47.7606ms 
+ [2022-05-12 23:55:26.562] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:55:26.563] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:55:26.563] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:55:26.610] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:55:26.610] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:55:26.610] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 47.0468ms 
+ [2022-05-12 23:55:26.610] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:55:26.610] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 48.2583ms 
+ [2022-05-12 23:55:52.436] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:55:52.436] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:55:52.436] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:55:52.482] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:55:52.482] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:55:52.483] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 46.5274ms 
+ [2022-05-12 23:55:52.483] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:55:52.483] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 47.6427ms 
+ [2022-05-12 23:56:17.359] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:56:17.359] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:56:17.359] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:56:17.406] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:56:17.406] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:56:17.407] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 47.3535ms 
+ [2022-05-12 23:56:17.407] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:56:17.407] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 48.4363ms 
+ [2022-05-12 23:56:30.731] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:56:30.731] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:56:30.731] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:56:30.778] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:56:30.778] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:56:30.778] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 46.888ms 
+ [2022-05-12 23:56:30.778] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:56:30.778] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 48.0103ms 
+ [2022-05-12 23:57:04.043] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:57:04.044] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:57:04.044] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:57:04.090] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:57:04.090] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:57:04.090] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 46.2888ms 
+ [2022-05-12 23:57:04.091] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:57:04.091] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 47.1214ms 
+ [2022-05-12 23:58:13.998] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-12 23:58:13.998] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:58:13.998] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-12 23:58:14.044] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-12 23:58:14.044] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType89`4[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-12 23:58:14.044] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 45.6412ms 
+ [2022-05-12 23:58:14.044] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-12 23:58:14.044] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 46.5472ms 
+ 

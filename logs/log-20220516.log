@@ -1,0 +1,1030 @@
+[2022-05-16 00:06:01.851] Request starting HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - 
+ [2022-05-16 00:06:01.867] Request starting HTTP/2 OPTIONS https://localhost:7064/Seguro - - 
+ [2022-05-16 00:06:01.881] CORS policy execution successful. 
+ [2022-05-16 00:06:01.881] CORS policy execution successful. 
+ [2022-05-16 00:06:01.873] Request starting HTTP/2 OPTIONS https://localhost:7064/veiculo - - 
+ [2022-05-16 00:06:01.882] Request finished HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - - 204 - - 32.3508ms 
+ [2022-05-16 00:06:01.882] Request finished HTTP/2 OPTIONS https://localhost:7064/Seguro - - - 204 - - 16.3629ms 
+ [2022-05-16 00:06:01.874] Request starting HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:06:01.882] CORS policy execution successful. 
+ [2022-05-16 00:06:01.874] Request starting HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:06:01.883] Request finished HTTP/2 OPTIONS https://localhost:7064/veiculo - - - 204 - - 9.6293ms 
+ [2022-05-16 00:06:01.883] CORS policy execution successful. 
+ [2022-05-16 00:06:01.883] Request finished HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - - 204 - - 9.2356ms 
+ [2022-05-16 00:06:01.883] CORS policy execution successful. 
+ [2022-05-16 00:06:01.884] Request finished HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - - 204 - - 10.5206ms 
+ [2022-05-16 00:06:01.892] Request starting HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - 
+ [2022-05-16 00:06:01.892] CORS policy execution successful. 
+ [2022-05-16 00:06:01.892] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-16 00:06:01.892] CORS policy execution successful. 
+ [2022-05-16 00:06:01.893] Executing endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:06:01.893] Route matched with {action = "GetPessoaNameByToken", controller = "Pessoa"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPessoaNameByToken() on controller ManaLynxAPI.Controllers.PessoaController (ManaLynxAPI). 
+ [2022-05-16 00:06:01.893] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:01.893] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:06:01.893] CORS policy execution successful. 
+ [2022-05-16 00:06:01.894] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:01.894] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:06:01.893] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-16 00:06:01.895] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+ [2022-05-16 00:06:01.896] Request starting HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:06:01.897] Request starting HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:06:01.897] CORS policy execution successful. 
+ [2022-05-16 00:06:01.897] Executing endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:01.897] CORS policy execution successful. 
+ [2022-05-16 00:06:01.897] Route matched with {action = "Index", controller = "CategoriaVeiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.CategoriaVeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:06:01.898] Executing endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:01.898] Route matched with {action = "Index", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller ManaLynxAPI.Controllers.ClienteController (ManaLynxAPI). 
+ [2022-05-16 00:06:02.289] --> GetAll request by user 1 using controller Veiculo 
+ [2022-05-16 00:06:02.289] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:06:02.289] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 395.3925ms 
+ [2022-05-16 00:06:02.289] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:02.289] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 396.0757ms 
+ [2022-05-16 00:06:02.365] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-16 00:06:02.365] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType91`5[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:06:02.365] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 470.6482ms 
+ [2022-05-16 00:06:02.365] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:02.365] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 472.8448ms 
+ [2022-05-16 00:06:02.468] Executed action ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI) in 574.9994ms 
+ [2022-05-16 00:06:02.468] Executed endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:06:02.470] Request finished HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - - 200 - application/json;+charset=utf-8 577.8454ms 
+ [2022-05-16 00:06:02.567] --> GetAll request by user 1 using controller CategoriaVeiculo 
+ [2022-05-16 00:06:02.567] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType20`2[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:06:02.567] Executed action ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI) in 669.7701ms 
+ [2022-05-16 00:06:02.567] Executed endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:02.567] Request finished HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - - 200 - application/json;+charset=utf-8 670.8509ms 
+ [2022-05-16 00:06:02.667] --> GetAll request by user 1 using controller Cliente 
+ [2022-05-16 00:06:02.667] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ManaLynxAPI.Models.Cliente, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:06:02.667] Executed action ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI) in 768.9524ms 
+ [2022-05-16 00:06:02.667] Executed endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:02.667] Request finished HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - - 200 - application/json;+charset=utf-8 770.6816ms 
+ [2022-05-16 00:06:04.438] Request starting HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - 
+ [2022-05-16 00:06:04.438] CORS policy execution successful. 
+ [2022-05-16 00:06:04.441] Executing endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:06:04.442] Route matched with {action = "GetPessoaNameByToken", controller = "Pessoa"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPessoaNameByToken() on controller ManaLynxAPI.Controllers.PessoaController (ManaLynxAPI). 
+ [2022-05-16 00:06:04.442] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:06:04.442] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-16 00:06:04.443] Request starting HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:06:04.443] CORS policy execution successful. 
+ [2022-05-16 00:06:04.443] CORS policy execution successful. 
+ [2022-05-16 00:06:04.443] CORS policy execution successful. 
+ [2022-05-16 00:06:04.443] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:04.443] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:04.443] Executing endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:04.443] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-16 00:06:04.443] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:06:04.443] Request starting HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:06:04.450] CORS policy execution successful. 
+ [2022-05-16 00:06:04.450] Executing endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:04.450] Route matched with {action = "Index", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller ManaLynxAPI.Controllers.ClienteController (ManaLynxAPI). 
+ [2022-05-16 00:06:04.451] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+ [2022-05-16 00:06:04.452] Route matched with {action = "Index", controller = "CategoriaVeiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.CategoriaVeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:06:04.499] --> GetAll request by user 1 using controller Veiculo 
+ [2022-05-16 00:06:04.500] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:06:04.500] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 56.6936ms 
+ [2022-05-16 00:06:04.500] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:04.500] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 58.1369ms 
+ [2022-05-16 00:06:04.524] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-16 00:06:04.525] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType91`5[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:06:04.525] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 82.3511ms 
+ [2022-05-16 00:06:04.525] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:04.526] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 83.5536ms 
+ [2022-05-16 00:06:04.547] --> GetAll request by user 1 using controller CategoriaVeiculo 
+ [2022-05-16 00:06:04.547] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType20`2[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:06:04.547] Executed action ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI) in 94.9203ms 
+ [2022-05-16 00:06:04.547] Executed endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:04.547] Request finished HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - - 200 - application/json;+charset=utf-8 104.8529ms 
+ [2022-05-16 00:06:04.575] Executed action ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI) in 133.3045ms 
+ [2022-05-16 00:06:04.575] Executed endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:06:04.575] Request finished HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - - 200 - application/json;+charset=utf-8 137.3546ms 
+ [2022-05-16 00:06:04.949] --> GetAll request by user 1 using controller Cliente 
+ [2022-05-16 00:06:04.949] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ManaLynxAPI.Models.Cliente, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:06:04.949] Executed action ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI) in 498.7626ms 
+ [2022-05-16 00:06:04.949] Executed endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:04.949] Request finished HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - - 200 - application/json;+charset=utf-8 506.3187ms 
+ [2022-05-16 00:06:52.751] Request starting HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - 
+ [2022-05-16 00:06:52.751] CORS policy execution successful. 
+ [2022-05-16 00:06:52.751] Request finished HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - - 204 - - 0.9199ms 
+ [2022-05-16 00:06:52.751] Request starting HTTP/2 OPTIONS https://localhost:7064/Seguro - - 
+ [2022-05-16 00:06:52.752] CORS policy execution successful. 
+ [2022-05-16 00:06:52.752] Request finished HTTP/2 OPTIONS https://localhost:7064/Seguro - - - 204 - - 0.5629ms 
+ [2022-05-16 00:06:52.756] Request starting HTTP/2 OPTIONS https://localhost:7064/veiculo - - 
+ [2022-05-16 00:06:52.757] CORS policy execution successful. 
+ [2022-05-16 00:06:52.757] Request starting HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:06:52.757] CORS policy execution successful. 
+ [2022-05-16 00:06:52.757] Request finished HTTP/2 OPTIONS https://localhost:7064/veiculo - - - 204 - - 0.9653ms 
+ [2022-05-16 00:06:52.757] Request finished HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - - 204 - - 0.1544ms 
+ [2022-05-16 00:06:52.757] Request starting HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:06:52.757] CORS policy execution successful. 
+ [2022-05-16 00:06:52.771] Request starting HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - 
+ [2022-05-16 00:06:52.771] Request finished HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - - 204 - - 14.0245ms 
+ [2022-05-16 00:06:52.771] CORS policy execution successful. 
+ [2022-05-16 00:06:52.771] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-16 00:06:52.771] CORS policy execution successful. 
+ [2022-05-16 00:06:52.771] Executing endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:06:52.771] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:52.772] Route matched with {action = "GetPessoaNameByToken", controller = "Pessoa"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPessoaNameByToken() on controller ManaLynxAPI.Controllers.PessoaController (ManaLynxAPI). 
+ [2022-05-16 00:06:52.772] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-16 00:06:52.772] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+ [2022-05-16 00:06:52.778] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:06:52.778] CORS policy execution successful. 
+ [2022-05-16 00:06:52.778] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:52.778] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:06:52.780] Request starting HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:06:52.780] CORS policy execution successful. 
+ [2022-05-16 00:06:52.780] Request starting HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:06:52.780] Executing endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:52.780] CORS policy execution successful. 
+ [2022-05-16 00:06:52.780] Route matched with {action = "Index", controller = "CategoriaVeiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.CategoriaVeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:06:52.780] Executing endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:52.781] Route matched with {action = "Index", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller ManaLynxAPI.Controllers.ClienteController (ManaLynxAPI). 
+ [2022-05-16 00:06:52.826] --> GetAll request by user 1 using controller Veiculo 
+ [2022-05-16 00:06:52.826] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:06:52.827] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 48.3451ms 
+ [2022-05-16 00:06:52.827] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:52.827] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 48.9403ms 
+ [2022-05-16 00:06:52.827] Executed action ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI) in 55.3252ms 
+ [2022-05-16 00:06:52.827] Executed endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:06:52.827] Request finished HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - - 200 - application/json;+charset=utf-8 55.9899ms 
+ [2022-05-16 00:06:52.848] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-16 00:06:52.848] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType91`5[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:06:52.848] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 76.555ms 
+ [2022-05-16 00:06:52.848] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:52.849] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 77.2683ms 
+ [2022-05-16 00:06:53.079] --> GetAll request by user 1 using controller Cliente 
+ [2022-05-16 00:06:53.080] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ManaLynxAPI.Models.Cliente, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:06:53.080] Executed action ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI) in 299.3018ms 
+ [2022-05-16 00:06:53.080] Executed endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:53.080] Request finished HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - - 200 - application/json;+charset=utf-8 299.7989ms 
+ [2022-05-16 00:06:53.278] --> GetAll request by user 1 using controller CategoriaVeiculo 
+ [2022-05-16 00:06:53.278] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType20`2[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:06:53.278] Executed action ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI) in 497.4711ms 
+ [2022-05-16 00:06:53.278] Executed endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:06:53.278] Request finished HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - - 200 - application/json;+charset=utf-8 498.5782ms 
+ [2022-05-16 00:08:03.788] Request starting HTTP/2 OPTIONS https://localhost:7064/veiculo - - 
+ [2022-05-16 00:08:03.791] CORS policy execution successful. 
+ [2022-05-16 00:08:03.792] Request finished HTTP/2 OPTIONS https://localhost:7064/veiculo - - - 204 - - 3.3672ms 
+ [2022-05-16 00:08:03.800] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:08:03.801] CORS policy execution successful. 
+ [2022-05-16 00:08:03.801] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:08:03.801] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:08:03.854] --> GetAll request by user 1 using controller Veiculo 
+ [2022-05-16 00:08:03.854] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:08:03.854] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 53.0059ms 
+ [2022-05-16 00:08:03.854] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:08:03.854] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 53.8121ms 
+ [2022-05-16 00:08:04.516] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:08:04.516] CORS policy execution successful. 
+ [2022-05-16 00:08:04.517] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:08:04.517] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:08:04.574] --> GetAll request by user 1 using controller Veiculo 
+ [2022-05-16 00:08:04.574] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:08:04.574] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 57.11ms 
+ [2022-05-16 00:08:04.574] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:08:04.574] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 57.7561ms 
+ [2022-05-16 00:08:25.623] Request starting HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - 
+ [2022-05-16 00:08:25.623] CORS policy execution successful. 
+ [2022-05-16 00:08:25.623] Request finished HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - - 204 - - 0.8464ms 
+ [2022-05-16 00:08:25.627] Request starting HTTP/2 OPTIONS https://localhost:7064/veiculo - - 
+ [2022-05-16 00:08:25.628] CORS policy execution successful. 
+ [2022-05-16 00:08:25.628] Request finished HTTP/2 OPTIONS https://localhost:7064/veiculo - - - 204 - - 0.3268ms 
+ [2022-05-16 00:08:25.628] Request starting HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:08:25.628] CORS policy execution successful. 
+ [2022-05-16 00:08:25.628] Request finished HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - - 204 - - 0.1329ms 
+ [2022-05-16 00:08:25.646] Request starting HTTP/2 OPTIONS https://localhost:7064/Seguro - - 
+ [2022-05-16 00:08:25.653] CORS policy execution successful. 
+ [2022-05-16 00:08:25.653] Request finished HTTP/2 OPTIONS https://localhost:7064/Seguro - - - 204 - - 7.4509ms 
+ [2022-05-16 00:08:25.660] Request starting HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - 
+ [2022-05-16 00:08:25.660] Request starting HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:08:25.660] CORS policy execution successful. 
+ [2022-05-16 00:08:25.660] CORS policy execution successful. 
+ [2022-05-16 00:08:25.660] Request finished HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - - 204 - - 0.2165ms 
+ [2022-05-16 00:08:25.660] Executing endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:08:25.660] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:08:25.660] CORS policy execution successful. 
+ [2022-05-16 00:08:25.660] Route matched with {action = "GetPessoaNameByToken", controller = "Pessoa"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPessoaNameByToken() on controller ManaLynxAPI.Controllers.PessoaController (ManaLynxAPI). 
+ [2022-05-16 00:08:25.660] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:08:25.660] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:08:25.661] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+ [2022-05-16 00:08:25.661] Request starting HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:08:25.661] CORS policy execution successful. 
+ [2022-05-16 00:08:25.662] Executing endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:08:25.662] Route matched with {action = "Index", controller = "CategoriaVeiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.CategoriaVeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:08:25.671] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-16 00:08:25.671] CORS policy execution successful. 
+ [2022-05-16 00:08:25.672] Request starting HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:08:25.672] CORS policy execution successful. 
+ [2022-05-16 00:08:25.672] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:08:25.672] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-16 00:08:25.672] Executing endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:08:25.672] Route matched with {action = "Index", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller ManaLynxAPI.Controllers.ClienteController (ManaLynxAPI). 
+ [2022-05-16 00:08:25.712] --> GetAll request by user 1 using controller Veiculo 
+ [2022-05-16 00:08:25.712] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:08:25.712] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 51.3382ms 
+ [2022-05-16 00:08:25.712] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:08:25.712] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 51.8308ms 
+ [2022-05-16 00:08:25.713] --> GetAll request by user 1 using controller CategoriaVeiculo 
+ [2022-05-16 00:08:25.713] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType20`2[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:08:25.713] Executed action ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI) in 51.1926ms 
+ [2022-05-16 00:08:25.713] Executed endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:08:25.713] Request finished HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - - 200 - application/json;+charset=utf-8 52.0152ms 
+ [2022-05-16 00:08:25.714] Executed action ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI) in 53.4399ms 
+ [2022-05-16 00:08:25.714] Executed endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:08:25.714] Request finished HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - - 200 - application/json;+charset=utf-8 54.1239ms 
+ [2022-05-16 00:08:25.731] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-16 00:08:25.731] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType91`5[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:08:25.732] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 59.242ms 
+ [2022-05-16 00:08:25.732] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:08:25.732] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 64.6172ms 
+ [2022-05-16 00:08:26.321] --> GetAll request by user 1 using controller Cliente 
+ [2022-05-16 00:08:26.321] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ManaLynxAPI.Models.Cliente, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:08:26.321] Executed action ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI) in 648.4975ms 
+ [2022-05-16 00:08:26.321] Executed endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:08:26.321] Request finished HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - - 200 - application/json;+charset=utf-8 649.4314ms 
+ [2022-05-16 00:08:44.020] Request starting HTTP/2 OPTIONS https://localhost:7064/veiculo - - 
+ [2022-05-16 00:08:44.020] CORS policy execution successful. 
+ [2022-05-16 00:08:44.020] Request finished HTTP/2 OPTIONS https://localhost:7064/veiculo - - - 204 - - 0.5928ms 
+ [2022-05-16 00:08:44.028] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:08:44.028] CORS policy execution successful. 
+ [2022-05-16 00:08:44.029] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:08:44.029] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:08:44.154] --> GetAll request by user 1 using controller Veiculo 
+ [2022-05-16 00:08:44.155] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:08:44.155] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 125.7937ms 
+ [2022-05-16 00:08:44.155] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:08:44.155] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 128.2895ms 
+ [2022-05-16 00:08:44.574] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:08:44.574] CORS policy execution successful. 
+ [2022-05-16 00:08:44.574] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:08:44.574] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:08:44.645] --> GetAll request by user 1 using controller Veiculo 
+ [2022-05-16 00:08:44.645] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:08:44.645] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 70.7574ms 
+ [2022-05-16 00:08:44.645] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:08:44.645] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 71.5158ms 
+ [2022-05-16 00:10:29.126] Request starting HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - 
+ [2022-05-16 00:10:29.127] CORS policy execution successful. 
+ [2022-05-16 00:10:29.127] Request starting HTTP/2 OPTIONS https://localhost:7064/Seguro - - 
+ [2022-05-16 00:10:29.127] Request finished HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - - 204 - - 0.7853ms 
+ [2022-05-16 00:10:29.127] CORS policy execution successful. 
+ [2022-05-16 00:10:29.127] Request starting HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:10:29.127] Request finished HTTP/2 OPTIONS https://localhost:7064/Seguro - - - 204 - - 0.1472ms 
+ [2022-05-16 00:10:29.127] CORS policy execution successful. 
+ [2022-05-16 00:10:29.127] Request starting HTTP/2 OPTIONS https://localhost:7064/veiculo - - 
+ [2022-05-16 00:10:29.127] Request finished HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - - 204 - - 0.1176ms 
+ [2022-05-16 00:10:29.127] CORS policy execution successful. 
+ [2022-05-16 00:10:29.127] Request finished HTTP/2 OPTIONS https://localhost:7064/veiculo - - - 204 - - 0.1059ms 
+ [2022-05-16 00:10:29.127] Request starting HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:10:29.127] CORS policy execution successful. 
+ [2022-05-16 00:10:29.127] Request finished HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - - 204 - - 0.2575ms 
+ [2022-05-16 00:10:29.143] Request starting HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - 
+ [2022-05-16 00:10:29.143] CORS policy execution successful. 
+ [2022-05-16 00:10:29.143] Executing endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:10:29.143] Route matched with {action = "GetPessoaNameByToken", controller = "Pessoa"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPessoaNameByToken() on controller ManaLynxAPI.Controllers.PessoaController (ManaLynxAPI). 
+ [2022-05-16 00:10:29.144] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+ [2022-05-16 00:10:29.148] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-16 00:10:29.149] CORS policy execution successful. 
+ [2022-05-16 00:10:29.149] Request starting HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:10:29.149] CORS policy execution successful. 
+ [2022-05-16 00:10:29.149] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:10:29.149] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-16 00:10:29.149] Executing endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:10:29.149] Route matched with {action = "Index", controller = "CategoriaVeiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.CategoriaVeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:10:29.150] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:10:29.150] CORS policy execution successful. 
+ [2022-05-16 00:10:29.150] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:10:29.150] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:10:29.194] --> GetAll request by user 1 using controller CategoriaVeiculo 
+ [2022-05-16 00:10:29.194] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType20`2[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:10:29.195] Executed action ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI) in 45.2999ms 
+ [2022-05-16 00:10:29.195] Executed endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:10:29.195] Request finished HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - - 200 - application/json;+charset=utf-8 45.7696ms 
+ [2022-05-16 00:10:29.195] Request starting HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:10:29.195] CORS policy execution successful. 
+ [2022-05-16 00:10:29.195] Executing endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:10:29.195] Route matched with {action = "Index", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller ManaLynxAPI.Controllers.ClienteController (ManaLynxAPI). 
+ [2022-05-16 00:10:29.199] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-16 00:10:29.199] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType91`5[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:10:29.199] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 50.175ms 
+ [2022-05-16 00:10:29.199] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:10:29.199] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 51.3952ms 
+ [2022-05-16 00:10:29.200] --> GetAll request by user 1 using controller Veiculo 
+ [2022-05-16 00:10:29.200] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:10:29.200] Executed action ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI) in 56.6763ms 
+ [2022-05-16 00:10:29.200] Executed endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:10:29.200] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 49.5867ms 
+ [2022-05-16 00:10:29.200] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:10:29.200] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 50.0999ms 
+ [2022-05-16 00:10:29.200] Request finished HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - - 200 - application/json;+charset=utf-8 57.3572ms 
+ [2022-05-16 00:10:29.422] --> GetAll request by user 1 using controller Cliente 
+ [2022-05-16 00:10:29.422] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ManaLynxAPI.Models.Cliente, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:10:29.422] Executed action ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI) in 226.6601ms 
+ [2022-05-16 00:10:29.422] Executed endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:10:29.422] Request finished HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - - 200 - application/json;+charset=utf-8 227.2972ms 
+ [2022-05-16 00:10:39.728] Request starting HTTP/2 OPTIONS https://localhost:7064/veiculo - - 
+ [2022-05-16 00:10:39.736] CORS policy execution successful. 
+ [2022-05-16 00:10:39.739] Request finished HTTP/2 OPTIONS https://localhost:7064/veiculo - - - 204 - - 7.7774ms 
+ [2022-05-16 00:10:39.739] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:10:39.741] CORS policy execution successful. 
+ [2022-05-16 00:10:39.748] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:10:39.748] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:10:39.795] --> GetAll request by user 1 using controller Veiculo 
+ [2022-05-16 00:10:39.795] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:10:39.795] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 47.403ms 
+ [2022-05-16 00:10:39.795] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:10:39.795] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 55.9272ms 
+ [2022-05-16 00:10:40.340] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:10:40.340] CORS policy execution successful. 
+ [2022-05-16 00:10:40.340] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:10:40.340] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:10:40.387] --> GetAll request by user 1 using controller Veiculo 
+ [2022-05-16 00:10:40.387] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:10:40.387] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 46.6607ms 
+ [2022-05-16 00:10:40.387] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:10:40.387] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 47.5245ms 
+ [2022-05-16 00:11:01.712] Request starting HTTP/2 OPTIONS https://localhost:7064/veiculo - - 
+ [2022-05-16 00:11:01.713] CORS policy execution successful. 
+ [2022-05-16 00:11:01.713] Request finished HTTP/2 OPTIONS https://localhost:7064/veiculo - - - 204 - - 0.7196ms 
+ [2022-05-16 00:11:01.721] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:11:01.721] CORS policy execution successful. 
+ [2022-05-16 00:11:01.722] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:11:01.722] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:11:01.768] --> GetAll request by user 1 using controller Veiculo 
+ [2022-05-16 00:11:01.769] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:11:01.769] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 46.7994ms 
+ [2022-05-16 00:11:01.769] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:11:01.769] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 48.6946ms 
+ [2022-05-16 00:11:03.133] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:11:03.134] CORS policy execution successful. 
+ [2022-05-16 00:11:03.134] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:11:03.134] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:11:03.181] --> GetAll request by user 1 using controller Veiculo 
+ [2022-05-16 00:11:03.181] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:11:03.181] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 46.9145ms 
+ [2022-05-16 00:11:03.181] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:11:03.182] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 48.1256ms 
+ [2022-05-16 00:11:09.905] Request starting HTTP/2 OPTIONS https://localhost:7064/veiculo - - 
+ [2022-05-16 00:11:09.905] CORS policy execution successful. 
+ [2022-05-16 00:11:09.905] Request finished HTTP/2 OPTIONS https://localhost:7064/veiculo - - - 204 - - 0.4880ms 
+ [2022-05-16 00:11:09.908] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:11:09.909] CORS policy execution successful. 
+ [2022-05-16 00:11:09.913] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:11:09.913] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:11:09.962] --> GetAll request by user 1 using controller Veiculo 
+ [2022-05-16 00:11:09.962] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:11:09.962] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 49.0068ms 
+ [2022-05-16 00:11:09.962] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:11:09.962] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 54.2859ms 
+ [2022-05-16 00:11:12.113] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:11:12.113] CORS policy execution successful. 
+ [2022-05-16 00:11:12.113] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:11:12.113] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:11:12.159] --> GetAll request by user 1 using controller Veiculo 
+ [2022-05-16 00:11:12.159] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:11:12.159] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 46.0714ms 
+ [2022-05-16 00:11:12.159] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:11:12.159] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 47.3659ms 
+ [2022-05-16 00:11:12.719] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:11:12.719] CORS policy execution successful. 
+ [2022-05-16 00:11:12.720] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:11:12.720] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:11:12.766] --> GetAll request by user 1 using controller Veiculo 
+ [2022-05-16 00:11:12.766] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:11:12.766] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 46.5816ms 
+ [2022-05-16 00:11:12.766] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:11:12.766] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 47.1788ms 
+ [2022-05-16 00:13:46.092] Request starting HTTP/2 OPTIONS https://localhost:7064/ManaUser/Login - - 
+ [2022-05-16 00:13:46.096] CORS policy execution successful. 
+ [2022-05-16 00:13:46.097] Request finished HTTP/2 OPTIONS https://localhost:7064/ManaUser/Login - - - 204 - - 4.1739ms 
+ [2022-05-16 00:13:46.100] Request starting HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 39 
+ [2022-05-16 00:13:46.100] CORS policy execution successful. 
+ [2022-05-16 00:13:46.100] Executing endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-16 00:13:46.101] Route matched with {action = "Login", controller = "ManaUser"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ManaLynxAPI.Models.AuthRequest) on controller ManaLynxAPI.Controllers.ManaUserController (ManaLynxAPI). 
+ [2022-05-16 00:13:46.202] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Models.AuthResponse'. 
+ [2022-05-16 00:13:46.203] Executed action ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI) in 102.1115ms 
+ [2022-05-16 00:13:46.203] Executed endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-16 00:13:46.203] Request finished HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 39 - 200 - application/json;+charset=utf-8 103.0973ms 
+ [2022-05-16 00:13:46.253] Request starting HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - 
+ [2022-05-16 00:13:46.253] Request starting HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardAdmin - - 
+ [2022-05-16 00:13:46.253] CORS policy execution successful. 
+ [2022-05-16 00:13:46.253] CORS policy execution successful. 
+ [2022-05-16 00:13:46.253] Request finished HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - - 204 - - 0.5654ms 
+ [2022-05-16 00:13:46.253] Request finished HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardAdmin - - - 204 - - 0.2504ms 
+ [2022-05-16 00:13:46.256] Request starting HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - 
+ [2022-05-16 00:13:46.256] CORS policy execution successful. 
+ [2022-05-16 00:13:46.256] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardAdmin - - 
+ [2022-05-16 00:13:46.258] CORS policy execution successful. 
+ [2022-05-16 00:13:46.258] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI)' 
+ [2022-05-16 00:13:46.258] Route matched with {action = "DashboardAdmin", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardAdmin() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-16 00:13:46.261] Executing endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:13:46.262] Route matched with {action = "GetPessoaNameByToken", controller = "Pessoa"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPessoaNameByToken() on controller ManaLynxAPI.Controllers.PessoaController (ManaLynxAPI). 
+ [2022-05-16 00:13:46.263] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+ [2022-05-16 00:13:46.314] Executed action ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI) in 51.8015ms 
+ [2022-05-16 00:13:46.314] Executed endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:13:46.318] Request finished HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - - 200 - application/json;+charset=utf-8 62.2346ms 
+ [2022-05-16 00:13:46.658] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardAdminObj'. 
+ [2022-05-16 00:13:46.658] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI) in 399.7977ms 
+ [2022-05-16 00:13:46.658] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI)' 
+ [2022-05-16 00:13:46.658] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardAdmin - - - 200 - application/json;+charset=utf-8 402.2303ms 
+ [2022-05-16 00:13:55.733] Request starting HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - 
+ [2022-05-16 00:13:55.733] CORS policy execution successful. 
+ [2022-05-16 00:13:55.733] Request finished HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - - 204 - - 0.2761ms 
+ [2022-05-16 00:13:55.734] Request starting HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - 
+ [2022-05-16 00:13:55.735] CORS policy execution successful. 
+ [2022-05-16 00:13:55.735] Executing endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:13:55.735] Route matched with {action = "GetPessoaNameByToken", controller = "Pessoa"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPessoaNameByToken() on controller ManaLynxAPI.Controllers.PessoaController (ManaLynxAPI). 
+ [2022-05-16 00:13:55.735] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+ [2022-05-16 00:13:55.786] Executed action ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI) in 51.3573ms 
+ [2022-05-16 00:13:55.786] Executed endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:13:55.786] Request finished HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - - 200 - application/json;+charset=utf-8 52.1433ms 
+ [2022-05-16 00:14:12.493] Request starting HTTP/2 OPTIONS https://localhost:7064/veiculo - - 
+ [2022-05-16 00:14:12.494] CORS policy execution successful. 
+ [2022-05-16 00:14:12.494] Request finished HTTP/2 OPTIONS https://localhost:7064/veiculo - - - 204 - - 1.7368ms 
+ [2022-05-16 00:14:12.498] Request starting HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:14:12.498] Request starting HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:14:12.498] CORS policy execution successful. 
+ [2022-05-16 00:14:12.498] CORS policy execution successful. 
+ [2022-05-16 00:14:12.498] Request starting HTTP/2 OPTIONS https://localhost:7064/Seguro - - 
+ [2022-05-16 00:14:12.498] CORS policy execution successful. 
+ [2022-05-16 00:14:12.505] Request finished HTTP/2 OPTIONS https://localhost:7064/Seguro - - - 204 - - 12.2616ms 
+ [2022-05-16 00:14:12.505] Request finished HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - - 204 - - 7.5771ms 
+ [2022-05-16 00:14:12.506] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:14:12.507] Request finished HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - - 204 - - 6.5955ms 
+ [2022-05-16 00:14:12.507] CORS policy execution successful. 
+ [2022-05-16 00:14:12.508] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:14:12.508] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:14:12.515] Request starting HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:14:12.515] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-16 00:14:12.515] CORS policy execution successful. 
+ [2022-05-16 00:14:12.515] CORS policy execution successful. 
+ [2022-05-16 00:14:12.515] Executing endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:14:12.515] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:14:12.515] Route matched with {action = "Index", controller = "CategoriaVeiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.CategoriaVeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:14:12.515] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-16 00:14:12.516] Request starting HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:14:12.516] CORS policy execution successful. 
+ [2022-05-16 00:14:12.516] Executing endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:14:12.516] Route matched with {action = "Index", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller ManaLynxAPI.Controllers.ClienteController (ManaLynxAPI). 
+ [2022-05-16 00:14:12.558] --> GetAll request by user 1 using controller Veiculo 
+ [2022-05-16 00:14:12.558] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:14:12.558] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 50.1985ms 
+ [2022-05-16 00:14:12.558] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:14:12.558] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 51.9132ms 
+ [2022-05-16 00:14:12.566] --> GetAll request by user 1 using controller CategoriaVeiculo 
+ [2022-05-16 00:14:12.566] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType20`2[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:14:12.566] Executed action ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI) in 50.7006ms 
+ [2022-05-16 00:14:12.566] Executed endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:14:12.566] Request finished HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - - 200 - application/json;+charset=utf-8 51.2767ms 
+ [2022-05-16 00:14:12.593] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-16 00:14:12.593] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType91`5[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:14:12.593] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 77.8937ms 
+ [2022-05-16 00:14:12.593] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:14:12.593] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 78.4468ms 
+ [2022-05-16 00:14:12.765] --> GetAll request by user 1 using controller Cliente 
+ [2022-05-16 00:14:12.765] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ManaLynxAPI.Models.Cliente, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:14:12.765] Executed action ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI) in 248.9605ms 
+ [2022-05-16 00:14:12.765] Executed endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:14:12.766] Request finished HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - - 200 - application/json;+charset=utf-8 249.5662ms 
+ [2022-05-16 00:14:20.749] Request starting HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardAdmin - - 
+ [2022-05-16 00:14:20.749] CORS policy execution successful. 
+ [2022-05-16 00:14:20.749] Request finished HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardAdmin - - - 204 - - 0.2852ms 
+ [2022-05-16 00:14:20.752] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardAdmin - - 
+ [2022-05-16 00:14:20.752] CORS policy execution successful. 
+ [2022-05-16 00:14:20.752] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI)' 
+ [2022-05-16 00:14:20.752] Route matched with {action = "DashboardAdmin", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardAdmin() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-16 00:14:21.150] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardAdminObj'. 
+ [2022-05-16 00:14:21.152] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI) in 399.3016ms 
+ [2022-05-16 00:14:21.152] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI)' 
+ [2022-05-16 00:14:21.152] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardAdmin - - - 200 - application/json;+charset=utf-8 400.3210ms 
+ [2022-05-16 00:14:22.705] Request starting HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:14:22.705] Request starting HTTP/2 OPTIONS https://localhost:7064/veiculo - - 
+ [2022-05-16 00:14:22.705] CORS policy execution successful. 
+ [2022-05-16 00:14:22.705] CORS policy execution successful. 
+ [2022-05-16 00:14:22.705] Request finished HTTP/2 OPTIONS https://localhost:7064/veiculo - - - 204 - - 0.5477ms 
+ [2022-05-16 00:14:22.705] Request finished HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - - 204 - - 0.4188ms 
+ [2022-05-16 00:14:22.705] Request starting HTTP/2 OPTIONS https://localhost:7064/Seguro - - 
+ [2022-05-16 00:14:22.706] CORS policy execution successful. 
+ [2022-05-16 00:14:22.706] Request finished HTTP/2 OPTIONS https://localhost:7064/Seguro - - - 204 - - 1.1595ms 
+ [2022-05-16 00:14:22.706] Request starting HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:14:22.706] CORS policy execution successful. 
+ [2022-05-16 00:14:22.707] Request finished HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - - 204 - - 0.4990ms 
+ [2022-05-16 00:14:22.710] Request starting HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:14:22.710] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-16 00:14:22.710] CORS policy execution successful. 
+ [2022-05-16 00:14:22.710] CORS policy execution successful. 
+ [2022-05-16 00:14:22.710] Executing endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:14:22.710] Route matched with {action = "Index", controller = "CategoriaVeiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.CategoriaVeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:14:22.710] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:14:22.710] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-16 00:14:22.711] Request starting HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:14:22.711] CORS policy execution successful. 
+ [2022-05-16 00:14:22.711] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:14:22.711] CORS policy execution successful. 
+ [2022-05-16 00:14:22.711] Executing endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:14:22.711] Route matched with {action = "Index", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller ManaLynxAPI.Controllers.ClienteController (ManaLynxAPI). 
+ [2022-05-16 00:14:22.712] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:14:22.712] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:14:22.758] --> GetAll request by user 1 using controller Veiculo 
+ [2022-05-16 00:14:22.758] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:14:22.758] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 46.5854ms 
+ [2022-05-16 00:14:22.758] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:14:22.759] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 47.3603ms 
+ [2022-05-16 00:14:22.760] --> GetAll request by user 1 using controller CategoriaVeiculo 
+ [2022-05-16 00:14:22.760] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType20`2[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:14:22.760] Executed action ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI) in 50.0308ms 
+ [2022-05-16 00:14:22.760] Executed endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:14:22.761] Request finished HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - - 200 - application/json;+charset=utf-8 50.6333ms 
+ [2022-05-16 00:14:22.760] --> GetAll request by user 1 using controller Seguro 
+ [2022-05-16 00:14:22.761] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType91`5[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:14:22.761] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 50.4226ms 
+ [2022-05-16 00:14:22.761] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:14:22.761] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 51.1438ms 
+ [2022-05-16 00:14:22.960] --> GetAll request by user 1 using controller Cliente 
+ [2022-05-16 00:14:22.960] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ManaLynxAPI.Models.Cliente, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:14:22.960] Executed action ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI) in 248.222ms 
+ [2022-05-16 00:14:22.960] Executed endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:14:22.960] Request finished HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - - 200 - application/json;+charset=utf-8 249.0827ms 
+ [2022-05-16 00:14:25.196] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardAdmin - - 
+ [2022-05-16 00:14:25.196] CORS policy execution successful. 
+ [2022-05-16 00:14:25.197] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI)' 
+ [2022-05-16 00:14:25.197] Route matched with {action = "DashboardAdmin", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardAdmin() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-16 00:14:25.607] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardAdminObj'. 
+ [2022-05-16 00:14:25.607] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI) in 409.9271ms 
+ [2022-05-16 00:14:25.607] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI)' 
+ [2022-05-16 00:14:25.607] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardAdmin - - - 200 - application/json;+charset=utf-8 411.1130ms 
+ [2022-05-16 00:14:46.953] Request starting HTTP/2 OPTIONS https://localhost:7064/ManaUser/Login - - 
+ [2022-05-16 00:14:46.953] CORS policy execution successful. 
+ [2022-05-16 00:14:46.954] Request finished HTTP/2 OPTIONS https://localhost:7064/ManaUser/Login - - - 204 - - 1.0718ms 
+ [2022-05-16 00:14:46.960] Request starting HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 39 
+ [2022-05-16 00:14:46.961] CORS policy execution successful. 
+ [2022-05-16 00:14:46.961] Executing endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-16 00:14:46.961] Route matched with {action = "Login", controller = "ManaUser"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ManaLynxAPI.Models.AuthRequest) on controller ManaLynxAPI.Controllers.ManaUserController (ManaLynxAPI). 
+ [2022-05-16 00:14:47.062] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Models.AuthResponse'. 
+ [2022-05-16 00:14:47.063] Executed action ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI) in 102.2747ms 
+ [2022-05-16 00:14:47.063] Executed endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-16 00:14:47.064] Request finished HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 39 - 200 - application/json;+charset=utf-8 103.6819ms 
+ [2022-05-16 00:14:47.127] Request starting HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - 
+ [2022-05-16 00:14:47.127] Request starting HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardAdmin - - 
+ [2022-05-16 00:14:47.127] CORS policy execution successful. 
+ [2022-05-16 00:14:47.127] CORS policy execution successful. 
+ [2022-05-16 00:14:47.127] Request finished HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardAdmin - - - 204 - - 0.6728ms 
+ [2022-05-16 00:14:47.127] Request finished HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - - 204 - - 0.6877ms 
+ [2022-05-16 00:14:47.129] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardAdmin - - 
+ [2022-05-16 00:14:47.129] Request starting HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - 
+ [2022-05-16 00:14:47.130] CORS policy execution successful. 
+ [2022-05-16 00:14:47.130] CORS policy execution successful. 
+ [2022-05-16 00:14:47.130] Executing endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:14:47.130] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI)' 
+ [2022-05-16 00:14:47.130] Route matched with {action = "GetPessoaNameByToken", controller = "Pessoa"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPessoaNameByToken() on controller ManaLynxAPI.Controllers.PessoaController (ManaLynxAPI). 
+ [2022-05-16 00:14:47.130] Route matched with {action = "DashboardAdmin", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardAdmin() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-16 00:14:47.131] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+ [2022-05-16 00:14:47.192] Executed action ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI) in 61.9515ms 
+ [2022-05-16 00:14:47.192] Executed endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:14:47.196] Request finished HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - - 200 - application/json;+charset=utf-8 66.9357ms 
+ [2022-05-16 00:14:47.527] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardAdminObj'. 
+ [2022-05-16 00:14:47.528] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI) in 397.4621ms 
+ [2022-05-16 00:14:47.528] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI)' 
+ [2022-05-16 00:14:47.528] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardAdmin - - - 200 - application/json;+charset=utf-8 398.7185ms 
+ [2022-05-16 00:15:00.796] Request starting HTTP/2 OPTIONS https://localhost:7064/ManaUser/Login - - 
+ [2022-05-16 00:15:00.796] CORS policy execution successful. 
+ [2022-05-16 00:15:00.796] Request finished HTTP/2 OPTIONS https://localhost:7064/ManaUser/Login - - - 204 - - 0.6155ms 
+ [2022-05-16 00:15:00.798] Request starting HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 43 
+ [2022-05-16 00:15:00.798] CORS policy execution successful. 
+ [2022-05-16 00:15:00.799] Executing endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-16 00:15:00.799] Route matched with {action = "Login", controller = "ManaUser"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ManaLynxAPI.Models.AuthRequest) on controller ManaLynxAPI.Controllers.ManaUserController (ManaLynxAPI). 
+ [2022-05-16 00:15:00.899] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Models.AuthResponse'. 
+ [2022-05-16 00:15:00.899] Executed action ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI) in 100.5932ms 
+ [2022-05-16 00:15:00.899] Executed endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-16 00:15:00.899] Request finished HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 43 - 200 - application/json;+charset=utf-8 101.4912ms 
+ [2022-05-16 00:15:00.930] Request starting HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - 
+ [2022-05-16 00:15:00.931] CORS policy execution successful. 
+ [2022-05-16 00:15:00.931] Request starting HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardCliente - - 
+ [2022-05-16 00:15:00.931] Request finished HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - - 204 - - 2.4231ms 
+ [2022-05-16 00:15:00.931] CORS policy execution successful. 
+ [2022-05-16 00:15:00.931] Request finished HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardCliente - - - 204 - - 0.2758ms 
+ [2022-05-16 00:15:00.939] Request starting HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - 
+ [2022-05-16 00:15:00.939] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardCliente - - 
+ [2022-05-16 00:15:00.939] CORS policy execution successful. 
+ [2022-05-16 00:15:00.939] Executing endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:15:00.940] CORS policy execution successful. 
+ [2022-05-16 00:15:00.940] Route matched with {action = "GetPessoaNameByToken", controller = "Pessoa"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPessoaNameByToken() on controller ManaLynxAPI.Controllers.PessoaController (ManaLynxAPI). 
+ [2022-05-16 00:15:00.940] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardCliente (ManaLynxAPI)' 
+ [2022-05-16 00:15:00.940] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+ [2022-05-16 00:15:00.946] Route matched with {action = "DashboardCliente", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardCliente() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-16 00:15:00.947] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardClienteObj'. 
+ [2022-05-16 00:15:00.950] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardCliente (ManaLynxAPI) in 3.3398ms 
+ [2022-05-16 00:15:00.950] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardCliente (ManaLynxAPI)' 
+ [2022-05-16 00:15:00.950] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardCliente - - - 200 - application/json;+charset=utf-8 11.2551ms 
+ [2022-05-16 00:15:00.989] Executed action ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI) in 49.6594ms 
+ [2022-05-16 00:15:00.989] Executed endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:15:00.990] Request finished HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - - 200 - application/json;+charset=utf-8 50.8881ms 
+ [2022-05-16 00:15:05.225] Request starting HTTP/2 OPTIONS https://localhost:7064/Seguro - - 
+ [2022-05-16 00:15:05.225] CORS policy execution successful. 
+ [2022-05-16 00:15:05.225] Request starting HTTP/2 OPTIONS https://localhost:7064/veiculo - - 
+ [2022-05-16 00:15:05.225] Request finished HTTP/2 OPTIONS https://localhost:7064/Seguro - - - 204 - - 1.6406ms 
+ [2022-05-16 00:15:05.231] CORS policy execution successful. 
+ [2022-05-16 00:15:05.231] Request starting HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:15:05.232] CORS policy execution successful. 
+ [2022-05-16 00:15:05.232] Request finished HTTP/2 OPTIONS https://localhost:7064/veiculo - - - 204 - - 6.9170ms 
+ [2022-05-16 00:15:05.232] Request finished HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - - 204 - - 1.3174ms 
+ [2022-05-16 00:15:05.237] Request starting HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:15:05.238] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:15:05.238] CORS policy execution successful. 
+ [2022-05-16 00:15:05.238] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-16 00:15:05.238] CORS policy execution successful. 
+ [2022-05-16 00:15:05.238] CORS policy execution successful. 
+ [2022-05-16 00:15:05.238] Request starting HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:15:05.238] Request finished HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - - 204 - - 0.8560ms 
+ [2022-05-16 00:15:05.238] CORS policy execution successful. 
+ [2022-05-16 00:15:05.238] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:15:05.238] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:15:05.239] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-16 00:15:05.239] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:15:05.241] Executing endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:15:05.241] Route matched with {action = "Index", controller = "CategoriaVeiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.CategoriaVeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:15:05.249] Request starting HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:15:05.249] CORS policy execution successful. 
+ [2022-05-16 00:15:05.249] Executing endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:15:05.252] Route matched with {action = "Index", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller ManaLynxAPI.Controllers.ClienteController (ManaLynxAPI). 
+ [2022-05-16 00:15:05.292] --> GetAll request by user 5 using controller CategoriaVeiculo 
+ [2022-05-16 00:15:05.293] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType20`2[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:15:05.293] Executed action ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI) in 51.4735ms 
+ [2022-05-16 00:15:05.293] Executed endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:15:05.293] Request finished HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - - 200 - application/json;+charset=utf-8 54.7178ms 
+ [2022-05-16 00:15:05.310] --> GetAll request by user 5 using controller Seguro 
+ [2022-05-16 00:15:05.310] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType91`5[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:15:05.310] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 71.5251ms 
+ [2022-05-16 00:15:05.310] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:15:05.310] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 72.1532ms 
+ [2022-05-16 00:15:05.380] --> GetAll request by user 5 using controller Veiculo 
+ [2022-05-16 00:15:05.380] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:15:05.380] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 141.861ms 
+ [2022-05-16 00:15:05.381] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:15:05.381] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 142.5389ms 
+ [2022-05-16 00:15:05.425] --> Get request by user 5 using controller Cliente to id 0 
+ [2022-05-16 00:15:05.425] Executing OkObjectResult, writing value of type '<>f__AnonymousType22`1[[ManaLynxAPI.Models.Cliente, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:15:05.427] Executed action ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI) in 174.9568ms 
+ [2022-05-16 00:15:05.427] Executed endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:15:05.427] Request finished HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - - 200 - application/json;+charset=utf-8 178.8053ms 
+ [2022-05-16 00:15:06.435] Request starting HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardCliente - - 
+ [2022-05-16 00:15:06.435] CORS policy execution successful. 
+ [2022-05-16 00:15:06.436] Request finished HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardCliente - - - 204 - - 0.6524ms 
+ [2022-05-16 00:15:06.438] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardCliente - - 
+ [2022-05-16 00:15:06.438] CORS policy execution successful. 
+ [2022-05-16 00:15:06.438] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardCliente (ManaLynxAPI)' 
+ [2022-05-16 00:15:06.438] Route matched with {action = "DashboardCliente", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardCliente() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-16 00:15:06.439] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardClienteObj'. 
+ [2022-05-16 00:15:06.439] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardCliente (ManaLynxAPI) in 0.2052ms 
+ [2022-05-16 00:15:06.439] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardCliente (ManaLynxAPI)' 
+ [2022-05-16 00:15:06.439] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardCliente - - - 200 - application/json;+charset=utf-8 1.4362ms 
+ [2022-05-16 00:15:07.212] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-16 00:15:07.212] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:15:07.212] Request starting HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:15:07.212] CORS policy execution successful. 
+ [2022-05-16 00:15:07.212] CORS policy execution successful. 
+ [2022-05-16 00:15:07.212] CORS policy execution successful. 
+ [2022-05-16 00:15:07.213] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:15:07.213] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:15:07.213] Executing endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:15:07.213] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:15:07.213] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-16 00:15:07.213] Route matched with {action = "Index", controller = "CategoriaVeiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.CategoriaVeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:15:07.214] Request starting HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:15:07.214] CORS policy execution successful. 
+ [2022-05-16 00:15:07.215] Executing endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:15:07.216] Route matched with {action = "Index", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller ManaLynxAPI.Controllers.ClienteController (ManaLynxAPI). 
+ [2022-05-16 00:15:07.262] --> GetAll request by user 5 using controller CategoriaVeiculo 
+ [2022-05-16 00:15:07.262] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType20`2[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:15:07.262] Executed action ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI) in 49.7758ms 
+ [2022-05-16 00:15:07.263] Executed endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:15:07.263] Request finished HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - - 200 - application/json;+charset=utf-8 50.4628ms 
+ [2022-05-16 00:15:07.280] --> GetAll request by user 5 using controller Seguro 
+ [2022-05-16 00:15:07.280] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType91`5[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:15:07.280] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 67.8136ms 
+ [2022-05-16 00:15:07.281] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:15:07.281] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 69.6185ms 
+ [2022-05-16 00:15:07.305] --> GetAll request by user 5 using controller Veiculo 
+ [2022-05-16 00:15:07.305] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:15:07.306] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 92.9267ms 
+ [2022-05-16 00:15:07.306] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:15:07.306] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 93.8781ms 
+ [2022-05-16 00:15:07.365] --> Get request by user 5 using controller Cliente to id 0 
+ [2022-05-16 00:15:07.365] Executing OkObjectResult, writing value of type '<>f__AnonymousType22`1[[ManaLynxAPI.Models.Cliente, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:15:07.366] Executed action ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI) in 149.8145ms 
+ [2022-05-16 00:15:07.366] Executed endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:15:07.366] Request finished HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - - 200 - application/json;+charset=utf-8 151.5944ms 
+ [2022-05-16 00:15:16.370] Request starting HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardCliente - - 
+ [2022-05-16 00:15:16.370] CORS policy execution successful. 
+ [2022-05-16 00:15:16.370] Request finished HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardCliente - - - 204 - - 0.2178ms 
+ [2022-05-16 00:15:16.374] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardCliente - - 
+ [2022-05-16 00:15:16.374] CORS policy execution successful. 
+ [2022-05-16 00:15:16.374] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardCliente (ManaLynxAPI)' 
+ [2022-05-16 00:15:16.375] Route matched with {action = "DashboardCliente", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardCliente() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-16 00:15:16.375] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardClienteObj'. 
+ [2022-05-16 00:15:16.375] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardCliente (ManaLynxAPI) in 0.5437ms 
+ [2022-05-16 00:15:16.375] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardCliente (ManaLynxAPI)' 
+ [2022-05-16 00:15:16.376] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardCliente - - - 200 - application/json;+charset=utf-8 2.3574ms 
+ [2022-05-16 00:16:02.203] Request starting HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - 
+ [2022-05-16 00:16:02.203] CORS policy execution successful. 
+ [2022-05-16 00:16:02.203] Request finished HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - - 204 - - 0.3701ms 
+ [2022-05-16 00:16:02.204] Request starting HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardCliente - - 
+ [2022-05-16 00:16:02.204] CORS policy execution successful. 
+ [2022-05-16 00:16:02.205] Request finished HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardCliente - - - 204 - - 0.3432ms 
+ [2022-05-16 00:16:02.211] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardCliente - - 
+ [2022-05-16 00:16:02.211] Request starting HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - 
+ [2022-05-16 00:16:02.211] CORS policy execution successful. 
+ [2022-05-16 00:16:02.211] CORS policy execution successful. 
+ [2022-05-16 00:16:02.211] Executing endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:16:02.211] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardCliente (ManaLynxAPI)' 
+ [2022-05-16 00:16:02.211] Route matched with {action = "DashboardCliente", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardCliente() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-16 00:16:02.211] Route matched with {action = "GetPessoaNameByToken", controller = "Pessoa"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPessoaNameByToken() on controller ManaLynxAPI.Controllers.PessoaController (ManaLynxAPI). 
+ [2022-05-16 00:16:02.211] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardClienteObj'. 
+ [2022-05-16 00:16:02.211] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardCliente (ManaLynxAPI) in 0.216ms 
+ [2022-05-16 00:16:02.211] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardCliente (ManaLynxAPI)' 
+ [2022-05-16 00:16:02.212] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardCliente - - - 200 - application/json;+charset=utf-8 0.8958ms 
+ [2022-05-16 00:16:02.212] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+ [2022-05-16 00:16:02.262] Executed action ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI) in 50.1189ms 
+ [2022-05-16 00:16:02.262] Executed endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:16:02.262] Request finished HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - - 200 - application/json;+charset=utf-8 51.7260ms 
+ [2022-05-16 00:16:02.371] Request starting HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - 
+ [2022-05-16 00:16:02.371] CORS policy execution successful. 
+ [2022-05-16 00:16:02.371] Request finished HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - - 204 - - 0.9317ms 
+ [2022-05-16 00:16:02.375] Request starting HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - 
+ [2022-05-16 00:16:02.375] CORS policy execution successful. 
+ [2022-05-16 00:16:02.375] Request starting HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardAdmin - - 
+ [2022-05-16 00:16:02.375] CORS policy execution successful. 
+ [2022-05-16 00:16:02.375] Request finished HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardAdmin - - - 204 - - 0.3208ms 
+ [2022-05-16 00:16:02.375] Executing endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:16:02.376] Route matched with {action = "GetPessoaNameByToken", controller = "Pessoa"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPessoaNameByToken() on controller ManaLynxAPI.Controllers.PessoaController (ManaLynxAPI). 
+ [2022-05-16 00:16:02.376] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+ [2022-05-16 00:16:02.377] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardAdmin - - 
+ [2022-05-16 00:16:02.377] CORS policy execution successful. 
+ [2022-05-16 00:16:02.378] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI)' 
+ [2022-05-16 00:16:02.378] Route matched with {action = "DashboardAdmin", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardAdmin() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-16 00:16:02.463] Executed action ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI) in 87.3594ms 
+ [2022-05-16 00:16:02.463] Executed endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:16:02.463] Request finished HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - - 200 - application/json;+charset=utf-8 88.8291ms 
+ [2022-05-16 00:16:02.739] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardAdminObj'. 
+ [2022-05-16 00:16:02.739] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI) in 360.9592ms 
+ [2022-05-16 00:16:02.740] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI)' 
+ [2022-05-16 00:16:02.740] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardAdmin - - - 200 - application/json;+charset=utf-8 362.8940ms 
+ [2022-05-16 00:16:04.182] Request starting HTTP/2 OPTIONS https://localhost:7064/veiculo - - 
+ [2022-05-16 00:16:04.182] Request starting HTTP/2 OPTIONS https://localhost:7064/Seguro - - 
+ [2022-05-16 00:16:04.183] CORS policy execution successful. 
+ [2022-05-16 00:16:04.183] Request finished HTTP/2 OPTIONS https://localhost:7064/Seguro - - - 204 - - 1.0667ms 
+ [2022-05-16 00:16:04.184] Request starting HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:16:04.184] CORS policy execution successful. 
+ [2022-05-16 00:16:04.184] CORS policy execution successful. 
+ [2022-05-16 00:16:04.184] Request finished HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - - 204 - - 0.2440ms 
+ [2022-05-16 00:16:04.184] Request finished HTTP/2 OPTIONS https://localhost:7064/veiculo - - - 204 - - 1.5539ms 
+ [2022-05-16 00:16:04.185] Request starting HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:16:04.185] CORS policy execution successful. 
+ [2022-05-16 00:16:04.185] Request finished HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - - 204 - - 0.3790ms 
+ [2022-05-16 00:16:04.187] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-16 00:16:04.188] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:16:04.188] CORS policy execution successful. 
+ [2022-05-16 00:16:04.188] Request starting HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:16:04.188] CORS policy execution successful. 
+ [2022-05-16 00:16:04.188] CORS policy execution successful. 
+ [2022-05-16 00:16:04.189] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:16:04.189] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:16:04.189] Executing endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:16:04.189] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:16:04.189] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-16 00:16:04.189] Route matched with {action = "Index", controller = "CategoriaVeiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.CategoriaVeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:16:04.238] --> GetAll request by user 5 using controller CategoriaVeiculo 
+ [2022-05-16 00:16:04.238] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType20`2[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:16:04.238] Executed action ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI) in 49.2942ms 
+ [2022-05-16 00:16:04.238] Executed endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:16:04.238] Request finished HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - - 200 - application/json;+charset=utf-8 50.7237ms 
+ [2022-05-16 00:16:04.238] Request starting HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:16:04.238] CORS policy execution successful. 
+ [2022-05-16 00:16:04.239] Executing endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:16:04.239] Route matched with {action = "Index", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller ManaLynxAPI.Controllers.ClienteController (ManaLynxAPI). 
+ [2022-05-16 00:16:04.262] --> GetAll request by user 5 using controller Seguro 
+ [2022-05-16 00:16:04.262] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType91`5[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:16:04.262] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 73.498ms 
+ [2022-05-16 00:16:04.262] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:16:04.262] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 74.9876ms 
+ [2022-05-16 00:16:04.286] --> GetAll request by user 5 using controller Veiculo 
+ [2022-05-16 00:16:04.286] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:16:04.287] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 97.9346ms 
+ [2022-05-16 00:16:04.287] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:16:04.287] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 98.5224ms 
+ [2022-05-16 00:16:04.407] --> Get request by user 5 using controller Cliente to id 0 
+ [2022-05-16 00:16:04.408] Executing OkObjectResult, writing value of type '<>f__AnonymousType22`1[[ManaLynxAPI.Models.Cliente, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:16:04.408] Executed action ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI) in 168.9793ms 
+ [2022-05-16 00:16:04.408] Executed endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:16:04.408] Request finished HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - - 200 - application/json;+charset=utf-8 169.4273ms 
+ [2022-05-16 00:16:32.469] Request starting HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - 
+ [2022-05-16 00:16:32.469] CORS policy execution successful. 
+ [2022-05-16 00:16:32.469] Request finished HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - - 204 - - 0.4272ms 
+ [2022-05-16 00:16:32.475] Request starting HTTP/2 OPTIONS https://localhost:7064/Seguro - - 
+ [2022-05-16 00:16:32.476] CORS policy execution successful. 
+ [2022-05-16 00:16:32.476] Request finished HTTP/2 OPTIONS https://localhost:7064/Seguro - - - 204 - - 3.0041ms 
+ [2022-05-16 00:16:32.482] Request starting HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:16:32.482] CORS policy execution successful. 
+ [2022-05-16 00:16:32.482] Request starting HTTP/2 OPTIONS https://localhost:7064/veiculo - - 
+ [2022-05-16 00:16:32.482] CORS policy execution successful. 
+ [2022-05-16 00:16:32.482] Request finished HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - - 204 - - 0.2869ms 
+ [2022-05-16 00:16:32.482] Request starting HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - 
+ [2022-05-16 00:16:32.482] Request finished HTTP/2 OPTIONS https://localhost:7064/veiculo - - - 204 - - 0.4904ms 
+ [2022-05-16 00:16:32.482] CORS policy execution successful. 
+ [2022-05-16 00:16:32.482] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-16 00:16:32.482] CORS policy execution successful. 
+ [2022-05-16 00:16:32.482] Executing endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:16:32.482] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:16:32.482] Route matched with {action = "GetPessoaNameByToken", controller = "Pessoa"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPessoaNameByToken() on controller ManaLynxAPI.Controllers.PessoaController (ManaLynxAPI). 
+ [2022-05-16 00:16:32.482] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-16 00:16:32.483] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+ [2022-05-16 00:16:32.488] Request starting HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:16:32.488] CORS policy execution successful. 
+ [2022-05-16 00:16:32.488] Request finished HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - - 204 - - 0.9366ms 
+ [2022-05-16 00:16:32.489] Request starting HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:16:32.490] CORS policy execution successful. 
+ [2022-05-16 00:16:32.490] Executing endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:16:32.490] Route matched with {action = "Index", controller = "CategoriaVeiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.CategoriaVeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:16:32.491] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:16:32.492] CORS policy execution successful. 
+ [2022-05-16 00:16:32.492] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:16:32.492] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:16:32.515] Request starting HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:16:32.515] CORS policy execution successful. 
+ [2022-05-16 00:16:32.517] Executing endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:16:32.517] Route matched with {action = "Index", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller ManaLynxAPI.Controllers.ClienteController (ManaLynxAPI). 
+ [2022-05-16 00:16:32.535] Executed action ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI) in 52.1176ms 
+ [2022-05-16 00:16:32.535] Executed endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:16:32.535] --> GetAll request by user 5 using controller Seguro 
+ [2022-05-16 00:16:32.535] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType91`5[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:16:32.535] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 52.4949ms 
+ [2022-05-16 00:16:32.535] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:16:32.535] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 53.0082ms 
+ [2022-05-16 00:16:32.536] Request finished HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - - 200 - application/json;+charset=utf-8 53.3167ms 
+ [2022-05-16 00:16:32.539] --> GetAll request by user 5 using controller CategoriaVeiculo 
+ [2022-05-16 00:16:32.540] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType20`2[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:16:32.540] Executed action ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI) in 49.1354ms 
+ [2022-05-16 00:16:32.540] Executed endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:16:32.540] Request finished HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - - 200 - application/json;+charset=utf-8 50.3227ms 
+ [2022-05-16 00:16:32.604] --> GetAll request by user 5 using controller Veiculo 
+ [2022-05-16 00:16:32.604] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:16:32.604] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 111.592ms 
+ [2022-05-16 00:16:32.604] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:16:32.604] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 112.6401ms 
+ [2022-05-16 00:16:33.078] --> Get request by user 5 using controller Cliente to id 0 
+ [2022-05-16 00:16:33.078] Executing OkObjectResult, writing value of type '<>f__AnonymousType22`1[[ManaLynxAPI.Models.Cliente, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:16:33.078] Executed action ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI) in 560.5383ms 
+ [2022-05-16 00:16:33.078] Executed endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:16:33.078] Request finished HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - - 200 - application/json;+charset=utf-8 563.2220ms 
+ [2022-05-16 00:16:33.814] Request starting HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - 
+ [2022-05-16 00:16:33.814] CORS policy execution successful. 
+ [2022-05-16 00:16:33.814] Request finished HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - - 204 - - 0.4293ms 
+ [2022-05-16 00:16:33.816] Request starting HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - 
+ [2022-05-16 00:16:33.816] CORS policy execution successful. 
+ [2022-05-16 00:16:33.817] Executing endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:16:33.817] Route matched with {action = "GetPessoaNameByToken", controller = "Pessoa"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPessoaNameByToken() on controller ManaLynxAPI.Controllers.PessoaController (ManaLynxAPI). 
+ [2022-05-16 00:16:33.817] Request starting HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardAdmin - - 
+ [2022-05-16 00:16:33.818] CORS policy execution successful. 
+ [2022-05-16 00:16:33.818] Request finished HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardAdmin - - - 204 - - 0.3652ms 
+ [2022-05-16 00:16:33.818] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+ [2022-05-16 00:16:33.822] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardAdmin - - 
+ [2022-05-16 00:16:33.822] CORS policy execution successful. 
+ [2022-05-16 00:16:33.822] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI)' 
+ [2022-05-16 00:16:33.822] Route matched with {action = "DashboardAdmin", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardAdmin() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-16 00:16:33.875] Executed action ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI) in 58.128ms 
+ [2022-05-16 00:16:33.875] Executed endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:16:33.876] Request finished HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - - 200 - application/json;+charset=utf-8 59.6835ms 
+ [2022-05-16 00:16:34.302] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardAdminObj'. 
+ [2022-05-16 00:16:34.302] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI) in 479.6843ms 
+ [2022-05-16 00:16:34.303] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI)' 
+ [2022-05-16 00:16:34.303] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardAdmin - - - 200 - application/json;+charset=utf-8 481.7087ms 
+ [2022-05-16 00:17:28.366] Request starting HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - 
+ [2022-05-16 00:17:28.367] CORS policy execution successful. 
+ [2022-05-16 00:17:28.367] Request finished HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - - 204 - - 0.9892ms 
+ [2022-05-16 00:17:28.368] Request starting HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardAdmin - - 
+ [2022-05-16 00:17:28.368] CORS policy execution successful. 
+ [2022-05-16 00:17:28.368] Request finished HTTP/2 OPTIONS https://localhost:7064/DadosEstatisticos/DashboardAdmin - - - 204 - - 0.2790ms 
+ [2022-05-16 00:17:28.376] Request starting HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - 
+ [2022-05-16 00:17:28.376] CORS policy execution successful. 
+ [2022-05-16 00:17:28.377] Request finished HTTP/2 OPTIONS https://localhost:7064/Pessoa/GetPessoaNameByToken - - - 204 - - 0.2479ms 
+ [2022-05-16 00:17:28.377] Request starting HTTP/2 OPTIONS https://localhost:7064/Seguro - - 
+ [2022-05-16 00:17:28.377] CORS policy execution successful. 
+ [2022-05-16 00:17:28.377] Request finished HTTP/2 OPTIONS https://localhost:7064/Seguro - - - 204 - - 0.1292ms 
+ [2022-05-16 00:17:28.377] Request starting HTTP/2 OPTIONS https://localhost:7064/veiculo - - 
+ [2022-05-16 00:17:28.377] CORS policy execution successful. 
+ [2022-05-16 00:17:28.377] Request finished HTTP/2 OPTIONS https://localhost:7064/veiculo - - - 204 - - 0.1631ms 
+ [2022-05-16 00:17:28.377] Request starting HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:17:28.377] CORS policy execution successful. 
+ [2022-05-16 00:17:28.378] Request finished HTTP/2 OPTIONS https://localhost:7064/CategoriaVeiculo - - - 204 - - 0.2368ms 
+ [2022-05-16 00:17:28.378] Request starting HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:17:28.378] CORS policy execution successful. 
+ [2022-05-16 00:17:28.378] Request finished HTTP/2 OPTIONS https://localhost:7064/Cliente/Index/0 - - - 204 - - 0.2127ms 
+ [2022-05-16 00:17:28.382] Request starting HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - 
+ [2022-05-16 00:17:28.383] CORS policy execution successful. 
+ [2022-05-16 00:17:28.383] Executing endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:17:28.383] Route matched with {action = "GetPessoaNameByToken", controller = "Pessoa"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPessoaNameByToken() on controller ManaLynxAPI.Controllers.PessoaController (ManaLynxAPI). 
+ [2022-05-16 00:17:28.386] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+ [2022-05-16 00:17:28.408] Request starting HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardAdmin - - 
+ [2022-05-16 00:17:28.408] CORS policy execution successful. 
+ [2022-05-16 00:17:28.408] Executing endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI)' 
+ [2022-05-16 00:17:28.408] Route matched with {action = "DashboardAdmin", controller = "DadosEstatisticos"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DashboardAdmin() on controller ManaLynxAPI.Controllers.DadosEstatisticosController (ManaLynxAPI). 
+ [2022-05-16 00:17:28.490] Request starting HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - 
+ [2022-05-16 00:17:28.491] CORS policy execution successful. 
+ [2022-05-16 00:17:28.492] Executing endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:17:28.493] Route matched with {action = "GetPessoaNameByToken", controller = "Pessoa"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPessoaNameByToken() on controller ManaLynxAPI.Controllers.PessoaController (ManaLynxAPI). 
+ [2022-05-16 00:17:28.496] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+ [2022-05-16 00:17:28.507] Request starting HTTP/2 GET https://localhost:7064/Seguro - - 
+ [2022-05-16 00:17:28.508] CORS policy execution successful. 
+ [2022-05-16 00:17:28.508] Executing endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:17:28.508] Route matched with {action = "Index", controller = "Seguro"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.SeguroController (ManaLynxAPI). 
+ [2022-05-16 00:17:28.509] Request starting HTTP/2 GET https://localhost:7064/veiculo - - 
+ [2022-05-16 00:17:28.509] CORS policy execution successful. 
+ [2022-05-16 00:17:28.509] Executing endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:17:28.509] Route matched with {action = "Index", controller = "Veiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.VeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:17:28.524] Request starting HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - 
+ [2022-05-16 00:17:28.524] CORS policy execution successful. 
+ [2022-05-16 00:17:28.524] Executing endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:17:28.524] Route matched with {action = "Index", controller = "CategoriaVeiculo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ManaLynxAPI.Controllers.CategoriaVeiculoController (ManaLynxAPI). 
+ [2022-05-16 00:17:28.525] Request starting HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:17:28.525] CORS policy execution successful. 
+ [2022-05-16 00:17:28.531] Executing endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:17:28.531] Route matched with {action = "Index", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller ManaLynxAPI.Controllers.ClienteController (ManaLynxAPI). 
+ [2022-05-16 00:17:28.558] --> GetAll request by user 5 using controller Seguro 
+ [2022-05-16 00:17:28.558] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType91`5[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.ICollection`1[[ManaLynxAPI.Models.Cobertura, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:17:28.558] Executed action ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI) in 49.9788ms 
+ [2022-05-16 00:17:28.558] Executed endpoint 'ManaLynxAPI.Controllers.SeguroController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:17:28.558] Request finished HTTP/2 GET https://localhost:7064/Seguro - - - 200 - application/json;+charset=utf-8 50.6171ms 
+ [2022-05-16 00:17:28.606] --> GetAll request by user 5 using controller Veiculo 
+ [2022-05-16 00:17:28.606] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType109`15[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.CategoriaVeiculo, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ManaLynxAPI.Models.Pessoa, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:17:28.606] Executed action ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI) in 96.7575ms 
+ [2022-05-16 00:17:28.606] Executed endpoint 'ManaLynxAPI.Controllers.VeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:17:28.606] Request finished HTTP/2 GET https://localhost:7064/veiculo - - - 200 - application/json;+charset=utf-8 97.4502ms 
+ [2022-05-16 00:17:28.607] Executed action ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI) in 223.5645ms 
+ [2022-05-16 00:17:28.607] Executed endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:17:28.607] Request finished HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - - 200 - application/json;+charset=utf-8 224.5609ms 
+ [2022-05-16 00:17:28.607] Executed action ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI) in 114.0001ms 
+ [2022-05-16 00:17:28.607] Executed endpoint 'ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken (ManaLynxAPI)' 
+ [2022-05-16 00:17:28.607] Request finished HTTP/2 GET https://localhost:7064/Pessoa/GetPessoaNameByToken application/json - - 200 - application/json;+charset=utf-8 117.2775ms 
+ [2022-05-16 00:17:28.607] --> GetAll request by user 5 using controller CategoriaVeiculo 
+ [2022-05-16 00:17:28.607] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType20`2[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:17:28.608] Executed action ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI) in 83.1772ms 
+ [2022-05-16 00:17:28.608] Executed endpoint 'ManaLynxAPI.Controllers.CategoriaVeiculoController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:17:28.608] Request finished HTTP/2 GET https://localhost:7064/CategoriaVeiculo - - - 200 - application/json;+charset=utf-8 83.9662ms 
+ [2022-05-16 00:17:28.808] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Controllers.DashboardAdminObj'. 
+ [2022-05-16 00:17:28.808] Executed action ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI) in 399.9271ms 
+ [2022-05-16 00:17:28.808] Executed endpoint 'ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin (ManaLynxAPI)' 
+ [2022-05-16 00:17:28.808] Request finished HTTP/2 GET https://localhost:7064/DadosEstatisticos/DashboardAdmin - - - 200 - application/json;+charset=utf-8 400.5488ms 
+ [2022-05-16 00:17:29.076] --> Get request by user 5 using controller Cliente to id 0 
+ [2022-05-16 00:17:29.076] Executing OkObjectResult, writing value of type '<>f__AnonymousType22`1[[ManaLynxAPI.Models.Cliente, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:17:29.076] Executed action ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI) in 544.382ms 
+ [2022-05-16 00:17:29.076] Executed endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:17:29.076] Request finished HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - - 200 - application/json;+charset=utf-8 550.8554ms 
+ [2022-05-16 00:17:55.649] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - - 
+ [2022-05-16 00:17:55.863] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - - - 200 - text/html;charset=utf-8 214.8817ms 
+ [2022-05-16 00:17:55.868] Request starting HTTP/2 GET https://localhost:7064/swagger/swagger-ui.css - - 
+ [2022-05-16 00:17:55.899] Request starting HTTP/2 GET https://localhost:7064/swagger/swagger-ui-bundle.js - - 
+ [2022-05-16 00:17:55.904] Request starting HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - - 
+ [2022-05-16 00:17:55.904] Request starting HTTP/2 GET https://localhost:7064/swagger/swagger-ui-standalone-preset.js - - 
+ [2022-05-16 00:17:55.907] Request finished HTTP/2 GET https://localhost:7064/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 3.2277ms 
+ [2022-05-16 00:17:55.953] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+ [2022-05-16 00:17:55.973] Request finished HTTP/2 GET https://localhost:7064/swagger/swagger-ui.css - - - 200 143821 text/css 106.7145ms 
+ [2022-05-16 00:17:55.977] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+ [2022-05-16 00:17:55.982] Request finished HTTP/2 GET https://localhost:7064/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 78.2658ms 
+ [2022-05-16 00:17:56.005] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+ [2022-05-16 00:17:56.006] Request finished HTTP/2 GET https://localhost:7064/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 107.0226ms 
+ [2022-05-16 00:17:56.159] Request starting HTTP/2 GET https://localhost:7064/swagger/favicon-32x32.png - - 
+ [2022-05-16 00:17:56.160] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+ [2022-05-16 00:17:56.160] Request finished HTTP/2 GET https://localhost:7064/swagger/favicon-32x32.png - - - 200 628 image/png 1.5165ms 
+ [2022-05-16 00:17:56.281] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - - 
+ [2022-05-16 00:17:56.468] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 187.8308ms 
+ [2022-05-16 00:18:18.076] Request starting HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 48 
+ [2022-05-16 00:18:18.076] CORS policy execution successful. 
+ [2022-05-16 00:18:18.076] Executing endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-16 00:18:18.077] Route matched with {action = "Login", controller = "ManaUser"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ManaLynxAPI.Models.AuthRequest) on controller ManaLynxAPI.Controllers.ManaUserController (ManaLynxAPI). 
+ [2022-05-16 00:18:18.176] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Models.AuthResponse'. 
+ [2022-05-16 00:18:18.176] Executed action ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI) in 99.3602ms 
+ [2022-05-16 00:18:18.176] Executed endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-16 00:18:18.176] Request finished HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 48 - 200 - application/json;+charset=utf-8 100.9492ms 
+ [2022-05-16 00:18:38.916] Request starting HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:18:38.917] Executing endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:18:38.917] Route matched with {action = "Index", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller ManaLynxAPI.Controllers.ClienteController (ManaLynxAPI). 
+ [2022-05-16 00:18:39.159] --> GetAll request by user 1 using controller Cliente 
+ [2022-05-16 00:18:39.159] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ManaLynxAPI.Models.Cliente, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:18:39.159] Executed action ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI) in 242.3146ms 
+ [2022-05-16 00:18:39.159] Executed endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:18:39.159] Request finished HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - - 200 - application/json;+charset=utf-8 243.4073ms 
+ [2022-05-16 00:19:08.312] Request starting HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 52 
+ [2022-05-16 00:19:08.312] CORS policy execution successful. 
+ [2022-05-16 00:19:08.313] Executing endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-16 00:19:08.313] Route matched with {action = "Login", controller = "ManaUser"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(ManaLynxAPI.Models.AuthRequest) on controller ManaLynxAPI.Controllers.ManaUserController (ManaLynxAPI). 
+ [2022-05-16 00:19:08.440] Executing OkObjectResult, writing value of type 'ManaLynxAPI.Models.AuthResponse'. 
+ [2022-05-16 00:19:08.440] Executed action ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI) in 126.7608ms 
+ [2022-05-16 00:19:08.440] Executed endpoint 'ManaLynxAPI.Controllers.ManaUserController.Login (ManaLynxAPI)' 
+ [2022-05-16 00:19:08.440] Request finished HTTP/2 POST https://localhost:7064/ManaUser/Login application/json 52 - 200 - application/json;+charset=utf-8 128.0714ms 
+ [2022-05-16 00:19:24.886] Request starting HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - 
+ [2022-05-16 00:19:24.886] Executing endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:19:24.887] Route matched with {action = "Index", controller = "Cliente"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller ManaLynxAPI.Controllers.ClienteController (ManaLynxAPI). 
+ [2022-05-16 00:19:25.035] --> Get request by user 5 using controller Cliente to id 0 
+ [2022-05-16 00:19:25.035] Executing OkObjectResult, writing value of type '<>f__AnonymousType22`1[[ManaLynxAPI.Models.Cliente, ManaLynxAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+ [2022-05-16 00:19:25.035] Executed action ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI) in 148.6487ms 
+ [2022-05-16 00:19:25.035] Executed endpoint 'ManaLynxAPI.Controllers.ClienteController.Index (ManaLynxAPI)' 
+ [2022-05-16 00:19:25.036] Request finished HTTP/2 GET https://localhost:7064/Cliente/Index/0 - - - 200 - application/json;+charset=utf-8 149.5800ms 
+ 

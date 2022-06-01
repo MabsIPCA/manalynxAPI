@@ -1,0 +1,120 @@
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using ManaLynxAPI.Data;
+using ManaLynxAPI.Models;
+using ManaLynxAPI;
+using System.Data.SqlClient;
+using Microsoft.AspNetCore.Authorization;
+using Auth = ManaLynxAuth.Auth;
+using Roles = ManaLynxAuth.Models.Roles;
+
+namespace ManaLynxAPI.Controllers
+{
+    /// <summary>
+    /// Controller for the Seguro table from the database
+    /// </summary>
+
+<<<<<<< HEAD
+    [Route("[controller]")]
+    [ApiController]
+    [Authorize]
+=======
+    [Route("[controller]/[action]")]
+    [ApiController, Auth]
+>>>>>>> faebef1ccf8dcc5bb15725f4de80b29866255061
+    public class SeguroController : Controller
+    {
+        
+        private readonly ApplicationDbContext _db;
+
+        public SeguroController(ApplicationDbContext db)
+        {
+            _db = db;
+        }
+
+
+        //GETALL
+<<<<<<< HEAD
+        [HttpGet, Auth(Roles.Admin, Roles.Gestor, Roles.Agente)]
+=======
+        [HttpGet, Auth(Roles.Admin, Roles.Gestor)]
+>>>>>>> faebef1ccf8dcc5bb15725f4de80b29866255061
+        public IActionResult Index()
+        {
+            if (_db.Seguros != null)
+            {
+                var objSeguroList = _db.Seguros.Select(c => new { c.Id, c.Nome, c.Tipo, c.Coberturas }).ToList();
+                return Ok(objSeguroList);
+            }
+            else return NotFound();
+        }
+
+
+        //GET
+        [HttpGet("viewbyid"), Auth(Roles.Admin, Roles.Gestor, Roles.Agente)]
+        public IActionResult ViewById(int? Id)
+        {
+            if (Id == null || Id == 0)
+            {
+                return NotFound();
+            }
+            var seguroFromDb = _db.Seguros.Find(Id);
+
+            if (seguroFromDb == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(seguroFromDb);
+        }
+
+
+        //POST
+        [HttpPost("create"), Auth(Roles.Admin, Roles.Gestor, Roles.Agente)]
+        public IActionResult Create(Seguro obj)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Seguros.Add(obj);
+                _db.SaveChanges();
+                return RedirectToAction("index");
+            }
+            return View(obj);
+        }
+
+        //PUT
+        [HttpPut("edit"), Auth(Roles.Admin, Roles.Gestor, Roles.Agente)]
+        public IActionResult Edit(Seguro obj)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Seguros.Update(obj);
+                _db.SaveChanges();
+                return RedirectToAction("index");
+            }
+            return View(obj);
+        }
+
+        //DELETE
+        [HttpDelete("delete"), Auth(Roles.Admin, Roles.Gestor, Roles.Agente)]
+        public IActionResult Delete(int Id)
+        {
+            var obj = _db.Seguros.Find(Id);
+            if (obj == null)
+            {
+                return NotFound();
+            }
+            _db.Seguros.Remove(obj);
+            _db.SaveChanges();
+            return Ok();
+        }
+
+
+    }
+}

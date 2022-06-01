@@ -1,0 +1,2327 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ManaLynxAPI</name>
+    </assembly>
+    <members>
+        <member name="T:ManaLynxAPI.Models.Agente">
+            <summary>
+            This is the model for the Agente table from the database.
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Models.Agente.#ctor">
+            <summary>
+            Default Constructor;
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Apolice.Id">
+            <summary>
+            This is the model for the Apolice table from the database
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Models.ApolicePessoal">
+            <summary>
+            Represents an Instance of SeguroPessoal
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Models.ApolicePessoal.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.ApolicePessoal.Id">
+            <summary>
+            Instance Primary Key
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.ApolicePessoal.ApoliceId">
+            <summary>
+            Apolice Foreign Key
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.ApolicePessoal.Apolice">
+            <summary>
+            Apolice Instance
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.ApolicePessoal.ClienteId">
+            <summary>
+            Cliente Foreign Key
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.ApolicePessoal.Cliente">
+            <summary>
+            Cliente Instance
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.ApolicePessoal.Valor">
+            <summary>
+            Insurance 'reward' in case of disability/death.
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.ApolicePessoal.SinistroPessoals">
+            <summary>
+            Collection of SinistroPessoal that are Related to this specific ApolicePessoal
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Models.Cliente">
+            <summary>
+            Represents an Instance of a Cliente
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Models.Cliente.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Cliente.Id">
+            <summary>
+            Primary Key
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Cliente.Profissao">
+            <summary>
+            Profissao Name
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Cliente.ProfissaoRisco">
+            <summary>
+            ProfissaoRisco Flag.
+            Affects Apolices.Premio.
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Cliente.IsLead">
+            <summary>
+            IsLead Flag. 
+            Determines wether it is a user with an account.
+            Can only be set by Roles: Agente, Gestor, Admin.
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Cliente.AgenteId">
+            <summary>
+            Agente Foreign Key
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Cliente.Agente">
+            <summary>
+            Agente Instance
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Cliente.DadoClinicoId">
+            <summary>
+            DadoClinico Foreign Key
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Cliente.DadoClinico">
+            <summary>
+            DadoClinico Instance
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Cliente.PessoaId">
+            <summary>
+            Pessoa Foreign Key
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Cliente.Pessoa">
+            <summary>
+            Pessoa Instance
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Cliente.ApolicePessoals">
+            <summary>
+            Collection of related ApolicePessoals.
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Cliente.ApoliceSaudes">
+            <summary>
+            Collection of related ApoliceSaudes.
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Cliente.Veiculos">
+            <summary>
+            Collection of related Veiculos.
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Models.Cobertura">
+            <summary>
+            This is the model for the Cobertura table from the database
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Models.TipoContacto">
+            <summary>
+            Enumerable to Define Contacto.Tipo with method ToString()
+            </summary>
+        </member>
+        <member name="F:ManaLynxAPI.Models.TipoContacto.Email">
+            <summary>
+            Represents Email address
+            abcdef@ghijk.lmn
+            </summary>
+        </member>
+        <member name="F:ManaLynxAPI.Models.TipoContacto.Telemovel">
+            <summary>
+            Represents Telemovel Number
+            xxx-xxx-xxxxx
+            </summary>
+        </member>
+        <member name="F:ManaLynxAPI.Models.TipoContacto.Telefone">
+            <summary>
+            Represents a Telefone Number
+            xxx-xxx-xxxxx
+            </summary>
+        </member>
+        <member name="F:ManaLynxAPI.Models.TipoContacto.Morada">
+            <summary>
+            Represents a Morada (home address)
+            Street, floor, door, ZIP-code
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Models.Contacto">
+            <summary>
+            Represents Contacto Instance
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Contacto.Id">
+            <summary>
+            Primary Key
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Contacto.Valor">
+            <summary>
+            Valor of Contacto        /// </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Contacto.Tipo">
+            <summary>
+            Tipo de Contacto
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Contacto.PessoaId">
+            <summary>
+            Pessoa Foreign Key
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Contacto.Pessoa">
+            <summary>
+            Pessoa Instance
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Models.DadoClinico">
+            <summary>
+            This is the model for the DadosClinicos table from the database
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Models.Doenca">
+            <summary>
+            This is the model for the Doenca table from the database
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Models.LoginCredential">
+            <summary>
+            Represents LoginCredential Instance
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Models.LoginCredential.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.LoginCredential.Id">
+            <summary>
+            Primary Key
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.LoginCredential.ManaHash">
+            <summary>
+            Password Hash
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.LoginCredential.ManaSalt">
+            <summary>
+            Password Salt
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.LoginCredential.ManaUsers">
+            <summary>
+            Collection of related ManaUsers.
+            Can never have more than one.
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Models.Roles">
+            <summary>
+            User Application Roles.
+            </summary>
+        </member>
+        <member name="F:ManaLynxAPI.Models.Roles.Admin">
+            <summary>
+            System Administrator
+            </summary>
+        </member>
+        <member name="F:ManaLynxAPI.Models.Roles.Gestor">
+            <summary>
+            Team Manager
+            </summary>
+        </member>
+        <member name="F:ManaLynxAPI.Models.Roles.Agente">
+            <summary>
+            Insurance Agente
+            </summary>
+        </member>
+        <member name="F:ManaLynxAPI.Models.Roles.Cliente">
+            <summary>
+            Client
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Models.ManaUser">
+            <summary>
+            Represents ManaUser Instance
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Models.ManaUser.#ctor(ManaLynxAPI.Models.RegisterRequest)">
+            <summary>
+            Gets RegisterRequest Values
+            </summary>
+            <param name="register">Model Used for the Registry data</param>
+        </member>
+        <member name="M:ManaLynxAPI.Models.ManaUser.#ctor(ManaLynxAPI.Models.RegisterRoleRequest)">
+            <summary>
+            Gets RegisterRoleRequest Values
+            </summary>
+            <param name="register"></param>
+        </member>
+        <member name="M:ManaLynxAPI.Models.ManaUser.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.ManaUser.Id">
+            <summary>
+            Primary Key
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.ManaUser.Username">
+            <summary>
+            Registered Username
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.ManaUser.Email">
+            <summary>
+            Registered Email
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.ManaUser.UserRole">
+            <summary>
+            User Role
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.ManaUser.LoginCredential">
+            <summary>
+            LoginCredential Foreign Key
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.ManaUser.LoginCredentialNavigation">
+            <summary>
+            LoginCredential Instance
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.ManaUser.PessoaId">
+            <summary>
+            Pessoa Foreign Key
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.ManaUser.Pessoa">
+            <summary>
+            Pessoa Instance
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Models.Pagamento">
+            <summary>
+            This is the model for the Pagamento table from the database
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Models.EstadoCivil">
+            <summary>
+            Marital Status Enum
+            </summary>
+        </member>
+        <member name="F:ManaLynxAPI.Models.EstadoCivil.Solteiro">
+            <summary>
+            Single
+            </summary>
+        </member>
+        <member name="F:ManaLynxAPI.Models.EstadoCivil.Casado">
+            <summary>
+            Married
+            </summary>
+        </member>
+        <member name="F:ManaLynxAPI.Models.EstadoCivil.UniaoDeFacto">
+            <summary>
+            Non-Marital Partnership
+            </summary>
+        </member>
+        <member name="F:ManaLynxAPI.Models.EstadoCivil.Divorciado">
+            <summary>
+            Divorced
+            </summary>
+        </member>
+        <member name="F:ManaLynxAPI.Models.EstadoCivil.Viúvo">
+            <summary>
+            Widow
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Models.Pessoa">
+            <summary>
+            Represents Pessoa Instance
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Models.Pessoa.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Pessoa.Id">
+            <summary>
+            Primary Key
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Pessoa.Nome">
+            <summary>
+            Full Name
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Pessoa.DataNascimento">
+            <summary>
+            Birth of Date
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Pessoa.Nacionalidade">
+            <summary>
+            Nationality
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Pessoa.Cc">
+            <summary>
+            Citizen Card Number
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Pessoa.ValidadeCc">
+            <summary>
+            Citizen Card Expiral Date
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Pessoa.Nif">
+            <summary>
+            Fiscal Identification Number
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Pessoa.Nss">
+            <summary>
+            Social Security Number
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Pessoa.Nus">
+            <summary>
+            Individual Healthcare Number
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Pessoa.EstadoCivil">
+            <summary>
+            EstadoCivil Enum Values
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Pessoa.Agentes">
+            <summary>
+            Collection of related Agentes
+            Should be only one
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Pessoa.Clientes">
+            <summary>
+            Collection of related Clientes
+            Should be only one
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Pessoa.Contactos">
+            <summary>
+            Collection of related Contactos
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Pessoa.ManaUsers">
+            <summary>
+            Collection of related ManaUsers 
+            Should be one or none
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Models.Tipo">
+            <summary>
+            This enum serves as the definition for the Tipo enum from the database
+            present in the table Seguro.
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Models.Seguro">
+            <summary>
+            This is the model for the Seguro table from the database.
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Models.Tratamento">
+            <summary>
+            This is the model for the Tratamento table from the database
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Models.Veiculo">
+            <summary>
+            Represents Veiculo Instance
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Models.Veiculo.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Veiculo.Id">
+            <summary>
+            Primary Key
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Veiculo.Vin">
+            <summary>
+            Vehicle Information Number
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Veiculo.Matricula">
+            <summary>
+            Vehicle Plate Number
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Veiculo.Ano">
+            <summary>
+            Vehicle Year of Factory
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Veiculo.Mes">
+            <summary>
+            Vehicle Month of Factory
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Veiculo.Marca">
+            <summary>
+            Vehicle Brand
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Veiculo.Modelo">
+            <summary>
+            Vehicle Model
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Veiculo.Cilindrada">
+            <summary>
+            Vehicle Engine Capacity
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Veiculo.Portas">
+            <summary>
+            Vehicle Doors Number
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Veiculo.Lugares">
+            <summary>
+            Vehicle Seats Number
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Veiculo.Potencia">
+            <summary>
+            Vehicle Power
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Veiculo.Peso">
+            <summary>
+            Vehicle Weight
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Veiculo.ClienteId">
+            <summary>
+            Cliente Foreign Key
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Veiculo.Cliente">
+            <summary>
+            Cliente Instance
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Veiculo.CategoriaVeiculoId">
+            <summary>
+            CategoriaVeiculo Foreign Key
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Veiculo.CategoriaVeiculo">
+            <summary>
+            CategoriaVeiculo Instance
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Models.Veiculo.ApoliceVeiculos">
+            <summary>
+            Collection of related ApoliceVeiculo
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Controllers.AgenteController">
+            <summary>
+            Controller for the Agente table from the database
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.AgenteController.Index">
+            <summary>
+            Gets all Agentes present in the Database
+            This route can be accessed by two roles: Admin and Gestor
+            Admin can view all agentes in the DB while Gestor can only view Agentes that are from his own Equipa
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.AgenteController.ViewByEquipaId(System.Int32)">
+            <summary>
+            Gets an Agente present in the DB by id
+            Only Admin can access this route
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.AgenteController.Create(ManaLynxAPI.Models.Agente)">
+            <summary>
+            Creates an Agente for the DB
+            Both Admin and Gestor can access this route
+            Admin can create Agente in wichever team he wishes, as long as it exists (duh!)
+            Gestor can only create Agentes for his own team
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.AgenteController.Edit(ManaLynxAPI.Models.Agente)">
+            <summary>
+            Edits an agente from the DB
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.AgenteController.Delete(System.Int32)">
+            <summary>
+            Completely Deletes an Agente from the DB
+            Only Admin can access this route
+            It should be done with extra care as it might break something
+            because of reference deletion
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.AgenteController.AgenteByUserId">
+            <summary>
+            Get agente from a given User Id
+            </summary>
+            <returns>Agente List with 0 or 1</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.AgenteController.AgentePessoaId(System.Int32)">
+            <summary>
+            Get agente from a given User Id
+            </summary>
+            <returns>Agente List with 0 or 1</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApoliceController.Index">
+            <summary>
+            Apolice index Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see all the data in the database.
+            Gestores can only see Apolice managed by his Agentes
+            Agentes can only see Apolice managed by himselves
+            Cliente can only see his Apolice
+            </summary>
+            <returns>Apolice List, possibly empty</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApoliceController.Get(System.Int32)">
+            <summary>
+            Apolice Get by Id Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see any Apolice.
+            Gestores can only see the Apolice if it Apolice is managed by his Agentes
+            Agentes can only see the Apolice if it Apolice is managed by himselves
+            Cliente can only see the Apolice if it is his own.
+            </summary>
+            <param name="id">ApoliceId to get</param>
+            <returns>Apolice List, size one or zero</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApoliceController.UpdateAgenteApolice(ManaLynxAPI.Controllers.UpdateAgenteApolice)">
+            <summary>
+            This route can be accessed by admin and gestor
+            it is used for them to associate an apolice to an agente.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApoliceController.AddCobertura(System.Int32,System.Int32)">
+            <summary>
+            Apolice Add Cobertura Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The update permissions depends on the role of the user
+            Admins can update any Apolice.
+            Gestores can update the Apolice if it Apolice is managed by his Agentes
+            Agentes can only update the Apolice if it Apolice is managed by himselves
+            Cliente can only update the Apolice if it is his own.
+            </summary>
+            <param name="ApId">ApoliceId</param>
+            <param name="CId">CoberturaId</param>
+            <returns>If sucessfull added CoberturaId</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApoliceController.DeleteCobertura(System.Int32,System.Int32)">
+            <summary>
+            Apolice Delete Cobertura Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The delete permissions depends on the role of the user
+            Admins can delete in any Apolice.
+            Gestores can delete in the Apolice if it Apolice is managed by his Agentes
+            Agentes can only delete in the Apolice if it Apolice is managed by himselves
+            Cliente can only delete in the Apolice if it is his own.
+            </summary>
+            <param name="ApId">ApoliceId</param>
+            <param name="CId">CoberturaId</param>
+            <returns>If sucessfull deleted CoberturaId</returns>
+        </member>
+        <member name="T:ManaLynxAPI.Controllers.UpdateAgenteApolice">
+            <summary>
+            Object to update apolice and set new agente.
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApolicePessoalController.Index">
+            <summary>
+            ApolicePessoal index Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see all the data in the database.
+            Gestores can only see ApolicesPessoais managed by his Agentes
+            Agentes can only see ApolicesPessoais managed by himselves
+            Cliente can only see his ApolicesPessoais
+            </summary>
+            <returns>ApolicesPessoais List, possibly empty</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApolicePessoalController.Create(ManaLynxAPI.Models.ApolicePessoal)">
+            <summary>
+            ApolicePessoal Create Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The creation depends on the role of the user and his permissions to create.
+            Admins can create any ApolicePessoal.
+            Gestores can only create the ApolicePessoal if it Apolice is managed by himselves
+            Agentes can only create the ApolicePessoal if it Apolice is managed by himselves
+            Cliente can only create the ApolicePessoal if it is his own.
+            </summary>
+            <param name="obj">ApolicePessoal with Apolice incapsulated Object</param>
+            <returns>If sucessfull return created ApolicePessoalId</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApolicePessoalController.ViewById(System.Int32)">
+            <summary>
+            ApolicePessoal Get by Id Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see any ApolicePessoal.
+            Gestores can only see the ApolicePessoal if it Apolice is managed by his Agentes
+            Agentes can only see the ApolicePessoal if it Apolice is managed by himselves
+            Cliente can only see the ApolicePessoal if it is his own.
+            </summary>
+            <param name="Id">ApolicePessoalId to get</param>
+            <returns>ApolicePessoal List, size one or zero</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApolicePessoalController.UpdateApolicePessoal(System.Int32,ManaLynxAPI.Models.ApolicePessoal)">
+            <summary>
+            ApolicePessoal Update Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The update depends on the role of the user and his permissions to update.
+            Admins can update any ApolicePessoal.
+            Gestores can only update the ApolicePessoal if it Apolice is managed by his Agentes
+            Agentes can only update the ApolicePessoal if it Apolice is managed by himselves
+            Cliente can only update the ApolicePessoal if it is his own.
+            </summary>
+            <param name="Id">ApolicePessoalId to update</param>
+            <param name="obj">ApolicePessoal</param>
+            <returns>If sucessfull the updated object</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApolicePessoalController.AskSimulacao(ManaLynxAPI.Models.ApolicePessoal)">
+            <summary>
+            Subscription to Simulacao
+            Expects an object of Type <paramref name="apolicePessoal"/>
+            </summary>
+            <param name="apolicePessoal">Describes an instance of a Seguro <b>Pessoal</b>. Must be populated with the correct information.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApolicePessoalController.AcceptSimulacao(ManaLynxAPI.Controllers.ApolicePessoalController.ApolicePessoalActions)">
+            <summary>
+            Accept Simulação Pessoal
+            </summary>
+            <param name="apolicePessoalId"></param>
+            <returns></returns>
+            <returns></returns>
+        </member>
+        <member name="T:ManaLynxAPI.Controllers.ApolicePessoalController.CalculatePremioPessoal">
+            <summary>
+            Represents the Information needed to Calculate Premio Pessoal
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Controllers.ApolicePessoalController.CalculatePremioPessoal.ClienteId">
+            <summary>
+            Id for Cliente Information
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Controllers.ApolicePessoalController.CalculatePremioPessoal.Valor">
+            <summary>
+            Value that Cliente retrieves in case of Apolice Action
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApolicePessoalController.CalculatePremio(ManaLynxAPI.Controllers.ApolicePessoalController.CalculatePremioPessoal)">
+            <summary>
+            Calculate value to be paid for an Apolice for a specific Cliente.
+            </summary>
+            <param name="obj">Information required for the calculus.</param>
+            <returns>Value to be paid for an ApolicePessoal</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApoliceSaudeController.Index">
+            <summary>
+            ApoliceSaude index Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see all the data in the database.
+            Gestores can only see ApoliceSaude managed by his Agentes
+            Agentes can only see ApoliceSaude managed by himselves
+            Cliente can only see his ApolicesPessoais
+            </summary>
+            <returns>ApoliceSaude List, possibly empty</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApoliceSaudeController.Create(ManaLynxAPI.Models.ApoliceSaude)">
+            <summary>
+            ApoliceSaude Create Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The creation depends on the role of the user and his permissions to create.
+            Admins can create any ApolicePessoal.
+            Gestores can only create the ApoliceSaude if it Apolice is managed by himselves
+            Agentes can only create the ApoliceSaude if it Apolice is managed by himselves
+            Cliente can only create the ApoliceSaude if it is his own.
+            </summary>
+            <param name="obj">ApoliceSaude with Apolice incapsulated Object</param>
+            <returns>If sucessfull return created ApoliceSaudeId</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApoliceSaudeController.ViewById(System.Int32)">
+            <summary>
+            ApoliceSaude Get by Id Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see any ApolicePessoal.
+            Gestores can only see the ApoliceSaude if it Apolice is managed by his Agentes
+            Agentes can only see the ApoliceSaude if it Apolice is managed by himselves
+            Cliente can only see the ApoliceSaude if it is his own.
+            </summary>
+            <param name="Id">ApolicePessoalId to get</param>
+            <returns>ApoliceSaude List, size one or zero</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApoliceSaudeController.CalculatePremio(System.Int32)">
+            <summary>
+            Calculate value for Premio to be paid for an Apolice of a specific Cliente
+            </summary>
+            <param name="clienteId">Id for Cliente Information</param>
+            <returns>Value to be paid for an ApoliceSaude</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApoliceVeiculoController.Index">
+            <summary>
+            ApoliceVeiculo index Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see all the data in the database.
+            Gestores can only see ApoliceVeiculo managed by his Agentes
+            Agentes can only see ApoliceVeiculo managed by himselves
+            Cliente can only see his ApoliceVeiculo
+            </summary>
+            <returns>ApoliceVeiculo List, possibly empty</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApoliceVeiculoController.Create(ManaLynxAPI.Models.ApoliceVeiculo)">
+            <summary>
+            ApoliceVeiculo Create Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The creation depends on the role of the user and his permissions to create.
+            Admins can create any ApoliceVeiculo.
+            Gestores can only create the ApoliceVeiculo if it Apolice is managed by himselves
+            Agentes can only create the ApoliceVeiculo if it Apolice is managed by himselves
+            Cliente can only create the ApoliceVeiculo if it is his own.
+            </summary>
+            <param name="obj">ApoliceVeiculo with Apolice incapsulated Object</param>
+            <returns>If sucessfull return created ApoliceVeiculoId</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApoliceVeiculoController.ViewById(System.Int32)">
+            <summary>
+            ApoliceVeiculo Get by Id Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see any ApoliceVeiculo.
+            Gestores can only see the ApoliceVeiculo if it Apolice is managed by his Agentes
+            Agentes can only see the ApoliceVeiculo if it Apolice is managed by himselves
+            Cliente can only see the ApoliceVeiculo if it is his own.
+            </summary>
+            <param name="Id">ApoliceVeiculoId to get</param>
+            <returns>ApoliceVeiculo List, size one or zero</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApoliceVeiculoController.UpdateApoliceVeiculo(System.Int32,ManaLynxAPI.Models.ApoliceVeiculo)">
+            <summary>
+            ApoliceVeiculo Update Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The update depends on the role of the user and his permissions to update.
+            Admins can update any ApoliceVeiculo.
+            Gestores can only update the ApoliceVeiculo if it Apolice is managed by his Agentes
+            Agentes can only update the ApoliceVeiculo if it Apolice is managed by himselves
+            Cliente can only update the ApoliceVeiculo if it is his own.
+            </summary>
+            <param name="Id">ApoliceVeiculoId to update</param>
+            <param name="obj">ApoliceVeiculo</param>
+            <returns>If sucessfull the updated object</returns>
+        </member>
+        <member name="T:ManaLynxAPI.Controllers.ApoliceVeiculoController.CalculatePremioVeiculo">
+            <summary>
+            Represents the Information needed to Calculate Premio Veiculo
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Controllers.ApoliceVeiculoController.CalculatePremioVeiculo.VeiculoId">
+            <summary>
+            Id to get the Veiculo Information
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Controllers.ApoliceVeiculoController.CalculatePremioVeiculo.CartaConducao">
+            <summary>
+            CartaConducao
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Controllers.ApoliceVeiculoController.CalculatePremioVeiculo.Sinistros">
+            <summary>
+            Number of Sinistros
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ApoliceVeiculoController.CalculatePremio(ManaLynxAPI.Controllers.ApoliceVeiculoController.CalculatePremioVeiculo)">
+            <summary>
+            Calculate value to be paid for an Apolice for a specific veiculo.
+            </summary>
+            <param name="obj">Information required for the calculus.</param>
+            <returns>Value to be paid for an ApoliceVeiculo</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.CategoriaVeiculoController.Index">
+            <summary>
+            CategoriaVeiculo index Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content is equal to every role
+            </summary>
+            <returns>CategoriaVeiculo List</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.CategoriaVeiculoController.ViewById(System.Nullable{System.Int32})">
+            <summary>
+            CategoriaVeiculo Get by Id Route
+            This route can only be accessed by authenticad users, any role can access it.
+            </summary>
+            <param name="Id">CategoriaVeiculoId to get</param>
+            <returns>CategoriaVeiculo List, size one or zero</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.CategoriaVeiculoController.Create(ManaLynxAPI.Models.CategoriaVeiculo)">
+            <summary>
+            CategoriaVeiculo Create Route
+            This route can only be accessed by Admin users.
+            </summary>
+            <param name="obj">CategoriaVeiculo Object</param>
+            <returns>If sucessfull return created CategoriaVeiculoId</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.CategoriaVeiculoController.Edit(System.Int32,ManaLynxAPI.Models.CategoriaVeiculo)">
+            <summary>
+            CategoriaVeiculo Update Route
+            This route can only be accessed by Admin users.
+            </summary>
+            <param name="Id">CategoriaVeiculo Id to Update</param>
+            <param name="obj">CategoriaVeiculo Object</param>
+            <returns>Updated CategoriaVeiculo if update successful</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.CategoriaVeiculoController.Delete(System.Int32)">
+            <summary>
+            CategoriaVeiculo Delete Route
+            This route can only be accessed by Admin users.
+            </summary>
+            <param name="Id">CategoriaVeiculoId to delete</param>
+            <returns>Ok if successful</returns>
+        </member>
+        <member name="T:ManaLynxAPI.Controllers.ClienteController">
+            <summary>
+            Cliente Routes Controller.
+            Everyone Must be Authenticated, Authorization is managed in-route.
+            Admin is allowed to manipulate all data.
+            Gestor is allowed to manipulate all team's leads.
+            Agente is allowed to manipulate all his leads.
+            Cliente is allowed to manipulate himself.
+            Everyone is prevented from injections.
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ClienteController.#ctor(ManaLynxAPI.Data.ApplicationDbContext,ManaLynxAPI.Utils.IPessoaUtils,ManaLynxAPI.Utils.IClienteUtils,ManaLynxAPI.Utils.ILoggerUtils,ManaLynxAPI.Utils.IAppUtils)">
+            <summary>
+            Default Constructor
+            </summary>
+            <param name="db">Sets Db Transient</param>
+            <param name="pessoa">Sets Pessoa Utillitaries Transient</param>
+            <param name="cliente">Sets Cliente Utillitaries Transient</param>
+            <param name="logger">Sets Logger Transient</param>
+            <param name="app">Sets Application Generic Utillitaries Transient</param>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ClienteController.Index(System.Int32)">
+            <summary>
+            Get Cliente Information given <paramref name="id"/>.
+            If <paramref name="id"/> = 0 get self information.
+            </summary>
+            <param name="id">Cliente Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ClienteController.Create(ManaLynxAPI.Models.Cliente)">
+            <summary>
+            Adds Cliente Entry to Db.
+            Accepts Pessoa Injection Only!
+            </summary>
+            <param name="cliente">Information About Cliente.</param>
+            <returns>Response body with added Information.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ClienteController.Update(ManaLynxAPI.Models.Cliente)">
+            <summary>
+            Updates Cliente Entry in Db.
+            Does not Accept Pessoa Injection!
+            </summary>
+            <param name="cliente">Cliente Information Only.</param>
+            <returns>Response Body With Updated Information.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ClienteController.Delete(System.Int32)">
+            <summary>
+            Delete Cliente Entry in Db.
+            Deletes Recursively.
+            </summary>
+            <param name="clienteId">Cliente Id</param>
+            <returns>Success Status.</returns>
+        </member>
+        <member name="T:ManaLynxAPI.Controllers.CoberturaController">
+            <summary>
+            Controller for the Cobertura table from the database
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.CoberturaController.Index">
+            <summary>
+            Gets all Coberturas from DB
+            Everyone can access this route
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.CoberturaController.ViewById(System.Nullable{System.Int32})">
+            <summary>
+            Gets a cobertura with a specific ID from DB
+            Everyone can access this route
+            If an invalid Id is given returns badrequest()
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.CoberturaController.Create(ManaLynxAPI.Models.Cobertura)">
+            <summary>
+            Creates a Cobertura for the DB
+            Only Admin can access this route
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.CoberturaController.Edit(ManaLynxAPI.Models.Cobertura)">
+            <summary>
+            Updates a Cobertura from the DB
+            Only Admin can access this route
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.CoberturaController.Delete(System.Int32)">
+            <summary>
+            Deletes a Cobertura from the DB
+            Only admin can access this route
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ManaLynxAPI.Controllers.ContactoController">
+            <summary>
+            Contacto Routes Controller.
+            Everyone Must be Authenticated, Authorization is managed in-route.
+            Admin is allowed to manipulate all data.
+            Gestor is allowed to manipulate all team's leads.
+            Agente is allowed to manipulate all his leads.
+            Cliente is allowed to manipulate himself.
+            Everyone is prevented from injections.
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ContactoController.#ctor(ManaLynxAPI.Data.ApplicationDbContext,ManaLynxAPI.Utils.ILoggerUtils,ManaLynxAPI.Utils.IAppUtils)">
+            <summary>
+            Default Constructor for ContactoController
+            </summary>
+            <param name="db">Sets DbContext</param>
+            <param name="logger">Sets logger with its Transient</param>
+            <param name="app">Sets app generic utillitaries with its Transient</param>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ContactoController.Index(System.Int32)">
+            <summary>
+            Gets Contacto Entries.
+            If id != 0 returns only the related set of Contactos.
+            </summary>
+            <param name="id">Pessoa Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ContactoController.GestorIndex(System.Int32,System.Int32)">
+            <summary>
+            Finds `Lead` with <paramref name="id"/>
+            Related to Gestor through Equipa of Agentes
+            </summary>
+            <param name="reqId"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ContactoController.Create(ManaLynxAPI.Models.Contacto)">
+            <summary>
+            Add DB Entry Contacto related to a pessoa.
+            </summary>
+            <param name="contacto"></param>
+            <returns>The added object information.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ContactoController.Update(ManaLynxAPI.Models.Contacto)">
+            <summary>
+            Update Entry on DB
+            </summary>
+            <param name="contacto"></param>
+            <returns>Response body with updated <paramref name="contacto"/> updated values.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ContactoController.Delete(System.Int32)">
+            <summary>
+            Delete Contacto with Given <paramref name="contactoId"/>.
+            </summary>
+            <param name="contactoId"></param>
+            <returns>Body with result information.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.DadoClinicoController.Index">
+            <summary>
+            DadoClinico index Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see any DadoClinico.
+            Gestores can only see the DadoClinico if it is managed by his Agentes
+            Agentes can only see the DadoClinico if it is managed by themselves
+            Cliente can only see the DadoClinico if it is his own.
+            </summary>
+            <returns>DadoClinico List, possibly empty</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.DadoClinicoController.IndexById(System.Nullable{System.Int32})">
+            <summary>
+            DadoClinico IndexById Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see any DadoClinico.
+            Gestores can only see the DadoClinico if it is managed by his Agentes
+            Agentes can only see the DadoClinico if it is managed by themselves
+            Cliente can only see the DadoClinico if it is his own.
+            </summary>
+            <param name="Id">DadoClinicoId to get</param>
+            <returns>DadoClinico List, size one or zero</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.DadoClinicoController.Edit(ManaLynxAPI.Models.DadoClinico)">
+            <summary>
+            DadoClinico put Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to access.
+            Admins can update any DadoClinico.
+            Gestores can only update the DadoClinico if it is managed by his Agentes
+            Agentes can only update the DadoClinico if it is managed by themselves
+            Cliente can only update the DadoClinico if it is his own.
+            </summary>
+            <param name="obj">DadoClinico object</param>
+            <returns>Updated DadoClinico if update is successful, if not, return the sent object</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAdmin">
+            <summary>
+            Request to get all the data necessary 
+            to draw the Admin dashboard to frontend
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardGestor">
+            <summary>
+            Request to get all the data necessary 
+            to draw the Gestor dashboard to frontend
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardAgente">
+            <summary>
+            Request to get all data necessary to draw
+            Agente dashboard in frontend
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.DadosEstatisticosController.DashboardCliente">
+            <summary>
+            Request to get all data necessary to draw
+            cliente dashboard in frontend
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.DoencaController.Index">
+            <summary>
+            Doenca index Route
+            This route can only be accessed by authenticad users, everyone can access it.
+            </summary>
+            <returns>Doenca List, possibly empty</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.DoencaController.ViewById(System.Nullable{System.Int32})">
+            <summary>
+            Doenca ViewById Route
+            This route can only be accessed by authenticad users, everyone can access it.
+            </summary>
+            <param name="Id">id of client</param>
+            <returns>Doenca List, one or zero</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.DoencaController.Create(ManaLynxAPI.Models.Doenca)">
+            <summary>
+            Doenca create Route
+            This route can only be accessed by authenticad users, only Admin can access it.
+            Admins can see post Doenca.
+            </summary>
+            <param name="obj">Doenca object</param>
+            <returns>Send Doenca object.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.DoencaController.Edit(ManaLynxAPI.Models.Doenca)">
+            <summary>
+            Doenca edit Route
+            This route can only be accessed by authenticad users, only Admin can access it.
+            Admins can update Doenca.
+            </summary>
+            <param name="obj">Doenca object</param>
+            <returns>Updated Doenca if update is successful, if not, return the sent object.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.DoencaController.Delete(System.Int32)">
+            <summary>
+            Doenca delete Route
+            This route can only be accessed by authenticad users, only Admin can access it.
+            Admins can delete Doenca.
+            </summary>
+            <param name="obj">Doenca object</param>
+            <returns>Updated Doenca if update is successful, if not, return the sent object.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.EquipaController.Index">
+            <summary>
+            Shows all equipas present in the db
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.EquipaController.Create(ManaLynxAPI.Models.Equipa)">
+            <summary>
+            Creates a new Equipa with Gestor Id = null
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.EquipaController.Edit(ManaLynxAPI.Models.Equipa)">
+            <summary>
+            Updates the gestor id from a equipa
+            </summary>
+            <param name="equipaId"></param>
+            <param name="gestorId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ManaLynxAPI.Controllers.ManaUserController">
+            <summary>
+            Controller that manages authentication-related requests
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ManaUserController.#ctor(ManaLynxAPI.Data.ApplicationDbContext,ManaLynxAPI.Controllers.IJWTAuthManager,ManaLynxAPI.Utils.ILoginCredentialUtils,ManaLynxAPI.Utils.ILoggerUtils,ManaLynxAPI.Utils.IAppUtils,ManaLynxAPI.Utils.IManaUserUtils)">
+            <summary>
+            Default Constructor
+            </summary>
+            <param name="db">Db Context Transient</param>
+            <param name="a">JWTAuth Utillitaries Transient</param>
+            <param name="l">LoginCredential Utillitaries Transient</param>
+            <param name="logger">Logger Transient</param>
+            <param name="app">Generic Utillitaries Transient</param>
+            <param name="user">ManaUser Utillitaries Transient</param>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ManaUserController.Index">
+            <summary>
+            Get All Users on Database
+            Only accessible by Admins
+            </summary>
+            <returns>UserId, Username, UserRole</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ManaUserController.RegisterRole(ManaLynxAPI.Models.RegisterRoleRequest)">
+            <summary>
+            Registers Agentes to system
+            </summary>
+            <param name="register">New User Information</param>
+            <returns>Created User or Error</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ManaUserController.Register(ManaLynxAPI.Models.RegisterRequest)">
+            <summary>
+            Register route for new Clientes
+            Creates null Pessoa and DadoClinico entries in DB
+            </summary>
+            <param name="register">User Information</param>
+            <returns>User Created or Error</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ManaUserController.Login(ManaLynxAPI.Models.AuthRequest)">
+            <summary>
+            Login route for whoever
+            </summary>
+            <param name="login">login information</param>
+            <returns>Token and TokenLifeTime</returns>
+        </member>
+        <member name="T:ManaLynxAPI.Controllers.ManaUserController.UpdateObject">
+            <summary>
+            Stores Information Needed in order to Update User
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Controllers.ManaUserController.UpdateObject.User">
+            <summary>
+            Updates User Entrie
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Controllers.ManaUserController.UpdateObject.Password">
+            <summary>
+            Updates User Password
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ManaUserController.Update(ManaLynxAPI.Controllers.ManaUserController.UpdateObject)">
+            <summary>
+            Updates User Information
+            </summary>
+            <param name="obj">Update Information</param>
+            <returns>User Model or Error</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ManaUserController.Delete(System.Int32)">
+            <summary>
+            Deletes User from System
+            </summary>
+            <param name="id">User Id</param>
+            <returns>Status or Error</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.PagamentoController.Index">
+            <summary>
+            Gets all Pagamentos from the DB
+            Everyone can access this route
+            Admin Gestor and Agente can view all pagamentos
+            Cliente can only view his own
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.PagamentoController.Create(ManaLynxAPI.Models.Pagamento)">
+            <summary>
+            Creates a Pagamento to DB
+            Only Admin can access this route
+            Should never be accessed as pagamentos are created autommatically
+            with the method present in PagamentoUtils
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.PagamentoController.PagarApolice(System.Int32)">
+            <summary>
+            This route serves as a way for admin
+            to simulate the Pagamento of an Apolice
+            </summary>
+            <param name="apoliceId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.PagamentoController.Edit(ManaLynxAPI.Models.Pagamento)">
+            <summary>
+            Edits a pagamento from the DB
+            Only Admin can access this route
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.PagamentoController.Delete(System.Int32)">
+            <summary>
+            Deletes a pagamento from the DB
+            Only Admin can access this route
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ManaLynxAPI.Controllers.PessoaController">
+            <summary>
+            Pessoa CRUD Routes
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.PessoaController.#ctor(ManaLynxAPI.Data.ApplicationDbContext,ManaLynxAPI.Controllers.IJWTAuthManager,ManaLynxAPI.Utils.IPessoaUtils,ManaLynxAPI.Utils.ILoggerUtils,ManaLynxAPI.Utils.IAppUtils)">
+            <summary>
+            Default Constructor
+            </summary>
+            <param name="db">Database transient</param>
+            <param name="auth">Authent Utillitaries Transient</param>
+            <param name="pessoa">Pessoa Utillitaries Transient</param>
+            <param name="logger">Logger Transient</param>
+            <param name="app">Generic Utillitaries Transient</param>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.PessoaController.GetPessoaNameByToken">
+            <summary>
+            Returns the name of the user accessing this route
+            it verifies the id present in the token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.PessoaController.Index(System.Int32)">
+            <summary>
+            Gets Pessoa Information
+            Everyone accesses their information
+            Admin has access to all
+            Gestor access inside its equipa
+            Agente accesses his clientes information
+            Cliente only accesses his information
+            </summary>
+            <param name="id">Pessoa Information</param>
+            <returns>Array of Pessoas or Error</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.PessoaController.Add(ManaLynxAPI.Models.Pessoa)">
+            <summary>
+            Creates Object pessoa
+            </summary>
+            <param name="pessoa"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.PessoaController.Update(ManaLynxAPI.Models.Pessoa)">
+            <summary>
+            Updates Object Pessoa
+            </summary>
+            <param name="pessoa"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.PessoaController.Delete(ManaLynxAPI.Models.Pessoa)">
+            <summary>
+            Deletes Pessoa
+            </summary>
+            <param name="pessoa"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ProvaController.Index">
+            <summary>
+            Prova index Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see any Prova.
+            Gestores can only see the Prova if it is managed by his Agentes
+            Agentes can only see the Prova if it is managed by themselves
+            Cliente can only see the Prova if it is his own.
+            </summary>
+            <returns>DadoClinico List, possibly empty</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ProvaController.ViewById(System.Nullable{System.Int32})">
+            <summary>
+            Prova IndexById Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see any Prova.
+            Gestores can only see the Prova if it is managed by his Agentes
+            Agentes can only see the Prova if it is managed by themselves
+            Cliente can only see the Prova if it is his own.
+            </summary>
+            <param name="Id">ProvaId to get</param>
+            <returns>Prova List, size one or zero</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ProvaController.Create(ManaLynxAPI.Models.Prova)">
+            <summary>
+            Prova Post Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to access.
+            Admins can create any Prova.
+            Gestores can only create the Prova if it is managed by his Agentes
+            Agentes can only create the Prova if it is managed by themselves
+            Cliente can only create the Prova if it is his own.
+            </summary>
+            <param name="obj">Prova object</param>
+            <returns>Created Prova if create is successful, if not, return NotFound</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.ProvaController.Delete(System.Int32)">
+            <summary>
+            Prova Delete Route
+            This route can only be accessed by authenticad users, only admin role can access it.
+            Admins can delete any Prova.
+            </summary>
+            <param name="Id">ProvaId te remove</param>
+            <returns>Returns object</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.RelatorioPeritagemController.Index">
+            <summary>
+            RelatorioPeritagem index Route
+            This route can only be accessed by authenticad users, everyone can access it.
+            </summary>
+            <returns>RelatorioPeritagem List, possibly empty</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.RelatorioPeritagemController.ViewById(System.Nullable{System.Int32})">
+            <summary>
+            RelatorioPeritagem ViewById Route
+            This route can only be accessed by authenticad users, everyone can access it.
+            </summary>
+            <param name="Id">id of RelatorioPeritagem</param>
+            <returns>RelatorioPeritagem List, one or zero</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.RelatorioPeritagemController.Create(ManaLynxAPI.Models.RelatorioPeritagem)">
+            <summary>
+            RelatorioPeritagem create Route
+            This route can only be accessed by authenticad users, only Admin can access it.
+            Admins can post RelatorioPeritagem.
+            </summary>
+            <param name="obj">RelatorioPeritagem object</param>
+            <returns>Send RelatorioPeritagem object.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.RelatorioPeritagemController.Delete(System.Int32)">
+            <summary>
+            RelatorioPeritagem delete Route
+            This route can only be accessed by authenticad users, only Admin can access it.
+            Admins can delete Doenca.
+            </summary>
+            <param name="obj">RelatorioPeritagem object</param>
+            <returns>Updated RelatorioPeritagem if update is successful, if not, return the sent object.</returns>
+        </member>
+        <member name="T:ManaLynxAPI.Controllers.SeguroController">
+            <summary>
+            Controller for the Seguro table from the database
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.SeguroController.Index">
+            <summary>
+            Shows all seguros from DB
+            Everyone can access this route
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.SeguroController.ViewById(System.Nullable{System.Int32})">
+            <summary>
+            Gets a specific seguro form DB by ID
+            Only Admin and Gestor can access this route
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.SeguroController.Create(ManaLynxAPI.Models.Seguro)">
+            <summary>
+            Creates a seguro into the DB
+            Only Admin can access this route
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.SeguroController.Edit(ManaLynxAPI.Models.Seguro)">
+            <summary>
+            
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.SinistroController.Index">
+            <summary>
+            Sinistro index Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see any Sinistro.
+            Gestores can only see the Sinistro if it is managed by his Agentes
+            Agentes can only see the Sinistro if it is managed by themselves
+            Cliente can only see the Sinistro if it is his own.
+            </summary>
+            <returns>Sinistro List, possibly empty</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.SinistroController.Get(System.Nullable{System.Int32})">
+            <summary>
+            Sinistro get Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see any Sinistro.
+            Gestores can only see the Sinistro if it is managed by his Agentes
+            Agentes can only see the Sinistro if it is managed by themselves
+            Cliente can only see the Sinistro if it is his own.
+            </summary>
+            <returns>Sinistro List, possibly empty</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.SinistroController.Update(ManaLynxAPI.Models.Sinistro)">
+            <summary>
+            Sinistro put Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to access.
+            Admins can update any Sinistro.
+            Gestores can only update the Sinistro if it is managed by his Agentes
+            Agentes can only update the Sinistro if it is managed by themselves
+            Cliente can only update the Sinistro if it is his own.
+            </summary>
+            <param name="obj">Sinistro object</param>
+            <returns>Updated Sinistro if update is successful, if not, return the sent object</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.SinistroController.Delete(System.Int32)">
+            <summary>
+            Sinistro delete Route
+            This route can only be accessed by authenticad users, only admin role can access it.
+            Admins can delete any DadoClinico.
+            </summary>
+            <param name="Id">Sinistro id</param>
+            <returns>ok status or notfound</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.SinistroPessoalController.Index">
+            <summary>
+            SinistroPessoal index Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see any SinistroPessoal.
+            Gestores can only see the SinistroPessoal if it is managed by his Agentes
+            Agentes can only see the SinistroPessoal if it is managed by themselves
+            Cliente can only see the SinistroPessoal if it is his own.
+            </summary>
+            <returns>SinistroPessoal List, possibly empty</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.SinistroPessoalController.ViewById(System.Nullable{System.Int32})">
+            <summary>
+            SinistroPessoal get Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see any SinistroPessoal.
+            Gestores can only see the SinistroPessoal if it is managed by his Agentes
+            Agentes can only see the SinistroPessoal if it is managed by themselves
+            Cliente can only see the SinistroPessoal if it is his own.
+            </summary>
+            <returns>SinistroPessoal List, possibly empty</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.SinistroPessoalController.Create(ManaLynxAPI.Models.SinistroPessoal)">
+            <summary>
+            SinistroPessoal post Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to access.
+            Admins can create any SinistroPessoal.
+            Gestores can only create the SinistroPessoal if it is managed by his Agentes
+            Agentes can only create the SinistroPessoal if it is managed by themselves
+            Cliente can only create the SinistroPessoal if it is his own.
+            </summary>
+            <param name="obj">SinistroPessoal object</param>
+            <returns>Updated SinistroPessoal if create is successful</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.SinistroVeiculoController.Index">
+            <summary>
+            SinistroVeiculo get Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see any SinistroVeiculo.
+            Gestores can only see the SinistroVeiculo if it is managed by his Agentes
+            Agentes can only see the SinistroVeiculo if it is managed by themselves
+            Cliente can only see the SinistroVeiculo if it is his own.
+            </summary>
+            <returns>SinistroVeiculo List, possibly empty</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.SinistroVeiculoController.ViewById(System.Nullable{System.Int32})">
+            <summary>
+            SinistroVeiculo get Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see any SinistroVeiculo.
+            Gestores can only see the SinistroVeiculo if it is managed by his Agentes
+            Agentes can only see the SinistroVeiculo if it is managed by themselves
+            Cliente can only see the SinistroVeiculo if it is his own.
+            </summary>
+            <returns>SinistroVeiculo List, possibly empty</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.SinistroVeiculoController.Create(ManaLynxAPI.Models.SinistroVeiculo)">
+            <summary>
+            SinistroVeiculo post Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to access.
+            Admins can create any SinistroVeiculo.
+            Gestores can only create the SinistroVeiculo if it is managed by his Agentes
+            Agentes can only create the SinistroVeiculo if it is managed by themselves
+            Cliente can only create the SinistroVeiculo if it is his own.
+            </summary>
+            <param name="obj">SinistroVeiculo object</param>
+            <returns>Updated SinistroVeiculo if create is successful</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.TransacaoController.Index">
+            <summary>
+            Transacao index Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see all the data in the database.
+            Gestores can only see Transacoes from ApolicesSaude managed by his Agentes
+            Agentes can only see Transacoes from ApolicesSaude managed by himselves
+            Cliente can only see his Transacoes from his ApolicesSaude
+            </summary>
+            <returns>Transacao List, possibly empty</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.TransacaoController.ViewById(System.Nullable{System.Int32})">
+            <summary>
+            Transacao Get by Id Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see any Trasacao.
+            Gestores can only see the Trasacao if it ApoliceSaude is managed by his Agentes
+            Agentes can only see the Transacao if it ApoliceSaude is managed by himselves
+            Cliente can only see the Transacao if it ApoliceSaude is his own.
+            </summary>
+            <param name="Id">TransacaoId to get</param>
+            <returns>Transacao List, size one or zero</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.TransacaoController.Create(ManaLynxAPI.Models.Transacao)">
+            <summary>
+            Transacao Create Route
+            This route can only be accessed by admin users.
+            </summary>
+            <param name="obj">Transacao Object</param>
+            <returns>If sucessfull return created TransacaoId</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.TransacaoController.Edit(System.Int32,ManaLynxAPI.Models.Transacao)">
+            <summary>
+            Transacao Update Route
+            This route can only be accessed by admin users.
+            </summary>
+            <param name="Id">TransacaoId to Update</param>
+            <param name="obj">Transacao Object</param>
+            <returns>Updated Transacao if update is successful</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.TransacaoController.Delete(System.Int32)">
+            <summary>
+            Transacao Delete Route
+            This route can only be accessed by admin users.
+            </summary>
+            <param name="Id">TransacaoId to delete</param>
+            <returns>Ok if successful</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.TratamentoController.Index">
+            <summary>
+            DadoClinico index Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see any Tratamento.
+            Gestores can only see the Tratamento if it is managed by his Agentes
+            Agentes can only see the Tratamento if it is managed by themselves
+            Cliente can only see the Tratamento if it is his own.
+            </summary>
+            <returns>Tratamento List, possibly empty</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.TratamentoController.ByClientId(System.Nullable{System.Int32})">
+            <summary>
+            DadoClinico ByClientId Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see any Tratamento.
+            Gestores can only see the Tratamento if it is managed by his Agentes
+            Agentes can only see the Tratamento if it is managed by themselves
+            Cliente can only see the Tratamento if it is his own.
+            </summary>
+            <param name="Id">id of client</param>
+            <returns>Tratamento List, possibly empty</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.TratamentoController.Create(ManaLynxAPI.Models.Tratamento)">
+            <summary>
+            DadoClinico create Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to post.
+            Admins can see post Tratamento.
+            Gestores can only post the Tratamento if it is managed by his Agentes
+            Agentes can only post the Tratamento if it is managed by themselves
+            Cliente can only post the Tratamento if it is his own.
+            </summary>
+            <param name="obj">Tratamento object</param>
+            <returns>Updated Tratamento if update is successful, if not, return the sent object.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.TratamentoController.Delete(System.Int32)">
+            <summary>
+            DadoClinico delete Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to post.
+            Admins can delete Tratamento.
+            Gestores can only delete the Tratamento if it is managed by his Agentes
+            Agentes can only delete the Tratamento if it is managed by themselves
+            Cliente can only delete the Tratamento if it is his own.
+            </summary>
+            <param name="id">TratamentoId to delete</param>
+            <returns>Tratamento if delete is successful, if not, return badRequest.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.VeiculoController.Index">
+            <summary>
+            Veiculo index Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see all the data in the database.
+            Gestores can only see Veiculos from Clientes managed by his Agentes
+            Agentes can only see Veiculos from Clientes managed by himselves
+            Cliente can only see his Veiculos
+            </summary>
+            <returns>Veiculos List, possibly empty</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.VeiculoController.ViewById(System.Nullable{System.Int32})">
+            <summary>
+            Veiculo Get by Id Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The returned content depends on the role of the user and his permissions to view.
+            Admins can see any Veiculo.
+            Gestores can only see the Veiculo if it Cliente is managed by his Agentes
+            Agentes can only see the Veiculo if it Cliente is managed by himselves
+            Cliente can only see the Veiculo if it is his own.
+            </summary>
+            <param name="Id">VeiculoId to get</param>
+            <returns>Veiculos List, size one or zero</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.VeiculoController.Create(ManaLynxAPI.Models.Veiculo)">
+            <summary>
+            Veiculo Create Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The creation depends on the role of the user and his permissions to create.
+            Admins can create any Veiculo.
+            Gestores can only create the Veiculo if it Cliente is managed by his Agentes
+            Agentes can only create the Veiculo if it Cliente is managed by himselves
+            Cliente can only create the Veiculo if it is his own.
+            </summary>
+            <param name="obj">Veiculo Object</param>
+            <returns>If sucessfull return created VeiculoId</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.VeiculoController.Edit(System.Int32,ManaLynxAPI.Models.Veiculo)">
+            <summary>
+            Veiculo Update Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The update depends on the role of the user and his permissions to update.
+            Admins can update any Veiculo.
+            Gestores can only update the Veiculo if it Cliente is managed by his Agentes
+            Agentes can only update the Veiculo if it Cliente is managed by himselves
+            Cliente can only update the Veiculo if it is his own.
+            </summary>
+            <param name="Id">Veiculo Id to Update</param>
+            <param name="obj">Veiculo Object</param>
+            <returns>Updated VeiculoId if update is successful</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Controllers.VeiculoController.Delete(System.Int32)">
+            <summary>
+            Veiculo Delete Route
+            This route can only be accessed by authenticad users, any role can access it.
+            The delete action permission depends on the role of the user.
+            Admins can delete any Veiculo.
+            Gestores can only delete the Veiculo if it Cliente is managed by his Agentes
+            Agentes can only delete the Veiculo if it Cliente is managed by himselves
+            Cliente can only delete the Veiculo if it is his own.
+            </summary>
+            <param name="Id">VeiculoId to delete</param>
+            <returns>Ok if successful</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.AgenteUtils.CreateAgente(ManaLynxAPI.Models.Agente)">
+            <summary>
+            Creates an agente from route
+            that calls this function
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.AgenteUtils.UpdateAgente(ManaLynxAPI.Models.Agente)">
+            <summary>
+            Updates an agente from route
+            that calls this function
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.ApoliceUtils.CreateApolice(ManaLynxAPI.Models.Apolice,System.String)">
+            <summary>
+            accessd by controllers to create a new apolice
+            </summary>
+            <param name="ap">apolice obj</param>
+            <param name="tipo">apolice type</param>
+            <returns>valid id if created</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.ApoliceUtils.CanUpdate(System.Int32)">
+            <summary>
+            Verifys if Apolice can be updated
+            </summary>
+            <param name="id">Apolice Id</param>
+            <returns>true or false</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.ApoliceUtils.GetClienteId(System.Int32)">
+            <summary>
+            Gets apolice Cliente Id
+            </summary>
+            <param name="id">apoliceId</param>
+            <returns>Cliente id</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.ApoliceUtils.UpdateApolice(ManaLynxAPI.Models.Apolice,ManaLynxAPI.Models.Apolice)">
+            <summary>
+            route to update apolice
+            </summary>
+            <param name="updateObj">apolice from bd</param>
+            <param name="obj">object to update</param>
+            <returns>TupleError String Apolice></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.ApoliceUtils.CreateApolicePessoal(ManaLynxAPI.Models.ApolicePessoal,ManaLynxAPI.Models.ApolicePessoal)">
+            <summary>
+            Create Apolice Pessoal from controller
+            </summary>
+            <param name="createObj">Apolice Pessoal</param>
+            <param name="obj">Obj sent by Post</param>
+            <returns>Tuple string, ApolicePessoal?</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.ApoliceUtils.CreateApoliceSaude(ManaLynxAPI.Models.ApoliceSaude,ManaLynxAPI.Models.ApoliceSaude)">
+            <summary>
+            Create Apolice Saude from controller
+            </summary>
+            <param name="createObj">Apolice Saude</param>
+            <param name="obj">Obj sent by Post</param>
+            <returns>Tuple string, ApoliceSaude?</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.ApoliceUtils.CreateApoliceVeiculo(ManaLynxAPI.Models.ApoliceVeiculo,ManaLynxAPI.Models.ApoliceVeiculo)">
+            <summary>
+            Create Apolice Veiculo from controller
+            </summary>
+            <param name="createObj">Apolice Veiculo</param>
+            <param name="obj">Obj sent by Post</param>
+            <returns>Tuple string, ApoliceVeiculo?</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.ApoliceUtils.UpdateApolicePessoal(ManaLynxAPI.Models.ApolicePessoal,ManaLynxAPI.Models.ApolicePessoal)">
+            <summary>
+            Update Apolice Pessoal from controller
+            </summary>
+            <param name="createObj">Apolice Pessoal</param>
+            <param name="obj">Obj sent by Post</param>
+            <returns>Tuple string, ApolicePessoal?</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.ApoliceUtils.UpdateApoliceVeiculo(ManaLynxAPI.Models.ApoliceVeiculo,ManaLynxAPI.Models.ApoliceVeiculo)">
+            <summary>
+            Update Apolice Veiculo from controller
+            </summary>
+            <param name="createObj">Apolice Veiculo</param>
+            <param name="obj">Obj sent by Post</param>
+            <returns>Tuple string, ApoliceVeiculo?</returns>
+        </member>
+        <member name="T:ManaLynxAPI.Utils.IAppUtils">
+            <summary>
+            Interface for Transient Service that makes available Application Utillitaries.
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.IAppUtils.GetUserId(System.String)">
+            <summary>
+            Get user id claim from Bearer Token
+            </summary>
+            <param name="Bearer">Bearer Token</param>
+            <returns>user id</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.IAppUtils.GetUserRole(System.String)">
+            <summary>
+            Get user role claim from Bearer Token
+            </summary>
+            <param name="Bearer">Bearer Token</param>
+            <returns>user role</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.IAppUtils.GetEquipaId(System.Nullable{System.Int32})">
+            <summary>
+            Get Id from equipa of a Gestor user id
+            </summary>
+            <param name="manaUserId">user Id</param>
+            <returns>EquipaId</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.IAppUtils.GetAgenteId(System.Nullable{System.Int32})">
+            <summary>
+            Get agente id from a Agente user id
+            </summary>
+            <param name="manaUserId">user Id</param>
+            <returns>AgenteId</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.IAppUtils.GetClienteId(System.Nullable{System.Int32})">
+            <summary>
+            Get Cliente id from a Cliente user id
+            </summary>
+            <param name="manaUserId">user Id</param>
+            <returns>ClienteId</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.IAppUtils.GetEquipaAgentes(System.Nullable{System.Int32})">
+            <summary>
+            Given a <paramref name="equipaId"/>
+            </summary>
+            <param name="equipaId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.IAppUtils.GetFracionamento(System.String)">
+            <summary>
+            String to Fracionamento `Conversion`
+            </summary>
+            <param name="fracionamentoName"></param>
+            <returns>Returns Fracionamento or null if equivalent not found.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.IAppUtils.GetTensao(System.String)">
+            <summary>
+            String to Tensao `Conversion`
+            </summary>
+            <param name="tensaoName"></param>
+            <returns>Returns Tensao or null if equivalent not found.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.IAppUtils.PreventApoliceInjection(ManaLynxAPI.Models.Apolice@)">
+            <summary>
+            Sets Injectable Fields to null.
+            </summary>
+            <param name="apolice"></param>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.IAppUtils.CalculateSaudePremio(System.Int32)">
+            <summary>
+            Algorithm to calculate ApóliceSaude Prémio
+            </summary>
+            <param name="clienteId"></param>
+            <returns>Prémio in euros</returns>
+        </member>
+        <member name="T:ManaLynxAPI.Utils.AppUtils">
+            <summary>
+            Class for Transient Service that makes available Application Utillitaries.
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.AppUtils.#ctor(ManaLynxAPI.Data.ApplicationDbContext)">
+            <summary>
+            Default Constructor for Application Utilitaries
+            </summary>
+            <param name="db">Transient for DbContext</param>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.AppUtils.GetUserId(System.String)">
+            <summary>
+            Get user id claim from Bearer Token
+            </summary>
+            <param name="Bearer">Bearer Token</param>
+            <returns>user id</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.AppUtils.GetUserRole(System.String)">
+            <summary>
+            Get user role claim from Bearer Token
+            </summary>
+            <param name="Bearer">Bearer Token</param>
+            <returns>user role</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.AppUtils.GetEquipaId(System.Nullable{System.Int32})">
+            <summary>
+            Get Id from equipa of a Gestor user id
+            </summary>
+            <param name="manaUserId">user Id</param>
+            <returns>EquipaId</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.AppUtils.GetAgenteId(System.Nullable{System.Int32})">
+            <summary>
+            Get agente id from a Agente user id
+            </summary>
+            <param name="manaUserId">user Id</param>
+            <returns>AgenteId</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.AppUtils.GetClienteId(System.Nullable{System.Int32})">
+            <summary>
+            Get Cliente id from a Cliente user id
+            </summary>
+            <param name="manaUserId">user Id</param>
+            <returns>ClienteId</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.AppUtils.GetEquipaAgentes(System.Nullable{System.Int32})">
+            <summary>
+            Given a <paramref name="equipaId"/>
+            </summary>
+            <param name="equipaId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.AppUtils.GetRole(System.String)">
+            <summary>
+            String to Role `Conversion`
+            </summary>
+            <param name="roleName"></param>
+            <returns>Returns Role or null if equivalent not found.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.AppUtils.GetFracionamento(System.String)">
+            <summary>
+            String to Fracionamento `Conversion`
+            </summary>
+            <param name="fracionamentoName"></param>
+            <returns>Returns Fracionamento or null if equivalent not found.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.AppUtils.GetTensao(System.String)">
+            <summary>
+            String to Tensao `Conversion`
+            </summary>
+            <param name="tensaoName"></param>
+            <returns>Returns Tensao or null if equivalent not found.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.AppUtils.PreventApoliceInjection(ManaLynxAPI.Models.Apolice@)">
+            <summary>
+            Sets Injectable Fields to null.
+            </summary>
+            <param name="apolice"></param>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.AppUtils.CalculateSaudePremio(System.Int32)">
+            <summary>
+            Algorithm to calculate ApóliceSaude Prémio
+            </summary>
+            <param name="clienteId"></param>
+            <returns>Prémio in euros</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.ClienteUtils.ValidateModel(ManaLynxAPI.Models.Cliente)">
+            <summary>
+            Validate Cliente Model information.
+            </summary>
+            <param name="cliente"></param>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.ClienteUtils.PreventInjection(ManaLynxAPI.Models.Cliente)">
+            <summary>
+            Prevent Data Injection.
+            </summary>
+            <param name="cliente"></param>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.CoberturaUtils.CreateCobertura(ManaLynxAPI.Models.Cobertura)">
+            <summary>
+            Creates a cobertura when called by the route
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.DadoClinicoUtils.CreateDadoClinico(ManaLynxAPI.Models.DadoClinico)">
+            <summary>
+            Creates a dadoClinico from route
+            that calls this function
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.DadoClinicoUtils.UpdateDadoClinico(ManaLynxAPI.Models.DadoClinico)">
+            <summary>
+            Updates a dadoClinico from route
+            that calls this function
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.DoencaUtils.CreateDoenca(ManaLynxAPI.Models.Doenca)">
+            <summary>
+            Creates a Doenca from route
+            that calls this function
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.DoencaUtils.UpdateDoenca(ManaLynxAPI.Models.Doenca)">
+            <summary>
+            Updates a Doenca from route
+            that calls this function
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.GestorUtils.createGestor(System.Int32,System.Int32)">
+            <summary>
+            Utils called by gestor controller to create a new
+            Gestor and all its dependencies
+            </summary>
+            <param name="agenteId"></param>
+            <param name="equipaId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.LoggerUtils.SetLogInfoGetAll(System.Nullable{System.Int32},System.String)">
+            <summary>
+            Write GetAll request to log file
+            </summary>
+            <param name="manaUserId">user Id</param>
+            <param name="controller">name of controller used</param>
+            <returns>ClienteId</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.LoggerUtils.SetLogInfoGet(System.Nullable{System.Int32},System.String,System.Nullable{System.Int32})">
+            <summary>
+            Write Get request to log file
+            </summary>
+            <param name="manaUserId">user Id</param>
+            <param name="controller">name of controller used</param>
+            <param name="id">get request to this id</param>
+            <returns>ClienteId</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.LoggerUtils.SetLogInfoPost(System.Nullable{System.Int32},System.String,System.String)">
+            <summary>
+            Write Post request to log file
+            </summary>
+            <param name="manaUserId">user Id</param>
+            <param name="controller">name of controller used</param>
+            <param name="data">data posted to DB</param>
+            <returns>ClienteId</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.LoggerUtils.SetLogInfoPut(System.Nullable{System.Int32},System.String,System.String)">
+            <summary>
+            Write Put request to log file
+            </summary>
+            <param name="manaUserId">user Id</param>
+            <param name="controller">name of controller used</param>
+            <param name="data">data posted to DB</param>
+            <returns>ClienteId</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.LoggerUtils.SetLogInfoDelete(System.Nullable{System.Int32},System.String,System.Nullable{System.Int32})">
+            <summary>
+            Write Post request to log file
+            </summary>
+            <param name="manaUserId">user Id</param>
+            <param name="controller">name of controller used</param>
+            <param name="id">id of row to delete</param>
+            <returns>ClienteId</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.LoginCredentialUtils.#ctor(ManaLynxAPI.Data.ApplicationDbContext,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="db"></param>
+            <param name="c"></param>
+        </member>
+        <member name="T:ManaLynxAPI.Utils.IManaUserUtils">
+            <summary>
+            ManaUser Utillitaries Interface
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Utils.ManaUserUtils">
+            <summary>
+            ManaUser Utillitaries Implementation
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.ManaUserUtils.ValidateUser(ManaLynxAPI.Models.AuthRequest)">
+            <summary>
+            Validates Login Object Information
+            Checks for Password and Username
+            </summary>
+            <param name="logRequest">login information</param>
+            <returns>returns logged user or null</returns>
+        </member>
+        <member name="T:ManaLynxAPI.Utils.IPessoaUtils">
+            <summary>
+            Interface for Pessoa Utillitaries
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.IPessoaUtils.PessoaExists(ManaLynxAPI.Models.Pessoa)">
+            <summary>
+            Finds Database Entry with unique information.
+            </summary>
+            <param name="pessoa">Object with information</param>
+            <returns>True if Successful, otherwise False</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.IPessoaUtils.AddPessoa(ManaLynxAPI.Models.Pessoa)">
+            <summary>
+            Adds Database Entry with sent Information
+            </summary>
+            <param name="pessoa">Object with Information</param>
+            <returns>True if Successful, otherwise False</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.IPessoaUtils.UpdatePessoa(ManaLynxAPI.Models.Pessoa)">
+            <summary>
+            Update Database Entry with Sent Information
+            </summary>
+            <param name="pessoa">Object with information</param>
+            <returns>True if successful, otherwise False.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.IPessoaUtils.ValidateModel(ManaLynxAPI.Models.Pessoa)">
+            <summary>
+            Validate and Prevent from Data Injection.
+            </summary>
+            <param name="pessoa">Pessoa Information.</param>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.IPessoaUtils.RemovePessoa(ManaLynxAPI.Models.Pessoa)">
+            <summary>
+            Nulls Pessoa Fields and Updates Database Entry
+            </summary>
+            <param name="pessoa">Object with information</param>
+            <returns>True if Successful, otherwise False</returns>
+        </member>
+        <member name="P:ManaLynxAPI.Utils.IPessoaUtils.Model">
+            <summary>
+            Contains database object in case of successful event.
+            Otherwise Null.
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Utils.IPessoaUtils.Error">
+            <summary>
+            Contains error message in case of unsuccessful event.
+            Otherwise Null.
+            </summary>
+        </member>
+        <member name="T:ManaLynxAPI.Utils.PessoaUtils">
+            <summary>
+            Utillitaries for Pessoa CRUD Operations.
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Utils.PessoaUtils.Model">
+            <summary>
+            Populated with database object in case of successful event.
+            Otherwise Null.
+            </summary>
+        </member>
+        <member name="P:ManaLynxAPI.Utils.PessoaUtils.Error">
+            <summary>
+            Populated with error message in case of unsuccessful event.
+            Otherwise Null.
+            </summary>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.PessoaUtils.#ctor(ManaLynxAPI.Data.ApplicationDbContext)">
+            <summary>
+            Default Constructor
+            </summary>
+            <param name="db">DatabaseContext</param>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.PessoaUtils.PessoaExists(ManaLynxAPI.Models.Pessoa)">
+            <summary>
+            Checks for repeated unique Information.
+            </summary>
+            <param name="pessoa">Object with Information.</param>
+            <returns>True if found equal, otherwise False.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.PessoaUtils.AddPessoa(ManaLynxAPI.Models.Pessoa)">
+            <summary>
+            Add Object to DB.
+            Calls ValidateModel.
+            </summary>
+            <param name="pessoa">Information Object</param>
+            <returns>True if Successful, otherwise False.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.PessoaUtils.UpdatePessoa(ManaLynxAPI.Models.Pessoa)">
+            <summary>
+            Updates Original Object of given Id, with given information
+            </summary>
+            <param name="pessoa">New Object Information</param>
+            <returns>True if Successful, False Otherwise.</returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.PessoaUtils.RemovePessoa(ManaLynxAPI.Models.Pessoa)">
+            <summary>
+            Nulls Every Field, and Updates Object.
+            </summary>
+            <param name="pessoa"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.PessoaUtils.ValidateModel(ManaLynxAPI.Models.Pessoa)">
+            <summary>
+            Validate and Prevent from Data Injection.
+            </summary>
+            <param name="pessoa">Pessoa Information.</param>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.ProvaUtils.CreateProva(ManaLynxAPI.Models.Prova)">
+            <summary>
+            Creates a Prova from route
+            that calls this function
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.RelatorioPeritagemUtils.CreateRelatorio(ManaLynxAPI.Models.RelatorioPeritagem)">
+            <summary>
+            Creates a relatorio from route
+            that calls this function
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.TratamentoUtils.CreateTratamento(ManaLynxAPI.Models.Tratamento)">
+            <summary>
+            Creates a Tratamento from route
+            that calls this function
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.VeiculoUtils.createVeiculo(ManaLynxAPI.Models.Veiculo)">
+            <summary>
+            Create Veiculo from Route
+            </summary>
+            <param name="obj">Veiculo OBJ</param>
+            <returns></returns>
+        </member>
+        <member name="M:ManaLynxAPI.Utils.VeiculoUtils.updateVeiculo(ManaLynxAPI.Models.Veiculo,ManaLynxAPI.Models.Veiculo)">
+            <summary>
+            Update Veiculo From Route
+            </summary>
+            <param name="updateObj">Veiculo from DB</param>
+            <param name="obj">Veiculo Data to Update</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
